@@ -52,14 +52,14 @@
     "name": "Mermaid",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "<p><a href=\"https://mermaid.js.org/\"><strong>Mermaid</strong></a> lets you generate diagrams from a Markdown-like markup language. Since we last featured it in the Radar, Mermaid has added support for many more diagrams and <a href=\"https://mermaid.js.org/ecosystem/integrations.html\">integrations</a> with source code repositories, IDEs and knowledge management tools. Notably, it's supported natively in popular source code repositories such as GitHub and GitLab, enabling the embedding of and easy updates to Mermaid diagrams in the middle of Markdown documentation. Many of our teams gravitate toward Mermaid as their diagram-as-code tool due to its ease of use, multitude of integrations and wide variety of supported diagram types that keep growing.</p>"
   },
   {
     "name": "GitHub Copilot",
     "ring": "trial",
     "quadrant": "tools",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "<p><strong><a href=\"https://github.com/features/copilot\">GitHub Copilot</a></strong> is used by many of our teams to help them write code faster. Overall, most of our developers find it very useful and would be cross if we took it away from them. We've been collating and sharing many of our experiences with Copilot through <a href=\"https://martinfowler.com/articles/exploring-gen-ai.html\">a series on Generative AI</a> and <a href=\"https://www.thoughtworks.com/insights/blog/generative-ai/getting-started-with-github-copilot\">a guide on getting started with Copilot</a>. Note that GitHub Copilot can be used with any codebase, not just codebases hosted on GitHub.</p>\n\n<p>We're also excited that Copilot's chat feature from the <a href=\"https://github.com/features/preview/copilot-x\">Copilot X roadmap</a> has become more widely available since we last featured it in the Radar. It is a powerful addition to Copilot's in-line assistance feature. The availability of a chat interface inside the IDE improves the discoverability of commonly searched information, and integration with the open editor context makes it easy to explore errors or ask the chat to assist with tasks related to the code in focus.</p>"
   },
   {
@@ -80,14 +80,14 @@
     "name": "Playwright",
     "ring": "assess",
     "quadrant": "languages & frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "<p>With <strong><a href=\"https://playwright.dev/\">Playwright</a></strong> you can write end-to-end tests that run in Chrome, Firefox and WebKit. By using the Chrome Devtools Protocol (CDP) Playwright can offer TRUE features and eliminate many of the issues seen with WebDriver. Chromium-based browsers implement CDP directly. To support Firefox and Webkit, though, the Playwright team has to submit patches to these browsers, which may sometimes limit the framework.</p>\n\n<p>Playwright’s many features include: Built-in auto-waits, which result in tests that are more reliable and easier to understand; browser contexts, which let you test that persisting sessions across tabs work properly; and the ability to simulate notifications, geolocation and dark mode settings. Our teams are impressed with the stability Playwright brings to the test suite and like that they get feedback more quickly by running tests in parallel. Other features that set Playwright apart include better support for lazy loading and tracing. Although Playwright has some limitations — component support is currently experimental, for example — our teams consider it the go-to test framework and in some cases are migrating away from <a href=\"/radar/tools/cypress\">Cypress</a> and <a href=\"/radar/languages & frameworks/puppeteer\">Puppeteer</a>.</p>"
   },
   {
     "name": "LangChain",
     "ring": "assess",
     "quadrant": "languages & frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "<p><strong><a href=\"https://github.com/hwchase17/langchain\">LangChain</a></strong> is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, <a href=\"https://python.langchain.com/docs/modules/agents/\">agents</a> and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing <a href=\"/radar/techniques/retrieval-augmented-generation-rag\">Retrieval-Augmented Generation</a> applications and the <a href=\"/radar/techniques/react-prompting\">ReAct prompting</a> pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages & frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p>"
   },
   {
@@ -178,7 +178,7 @@
     "name": "Dart",
     "ring": "trial",
     "quadrant": "languages & frameworks",
-    "isNew": false,
+    "isNew": "FALSE",
     "description": "<p><strong><a href=\"https://dart.dev/\">Dart</a></strong> is a programming language developed by Google that supports building apps targeting multiple platforms, including web browsers, <a href=\"/radar/languages & frameworks/webassembly\">WebAssembly</a>, desktop and mobile apps. Its adoption has been driven by the dominance of <a href=\"/radar/languages & frameworks/flutter\">Flutter</a> — a popular, multi-platform UI toolkit powered by Dart — in the cross-platform native mobile app framework space. In response to community feedback, Dart has evolved since its initial versions and has added built-in <a href=\"https://dart.dev/null-safety\">sound null safety</a> in version three, in addition to a robust type system. Furthermore, Dart's ecosystem is growing rapidly, with a vibrant community and a wide range of available libraries and tools, making it attractive for developers.</p>"
   },
   {
