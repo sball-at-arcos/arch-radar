@@ -1,0 +1,76 @@
+{
+  "TechRadar": {
+	"title": "ThoughtWorks Technology Radar",
+	"date": "2024-07-23",
+	"quadrants": [
+	  {
+		"name": "Techniques",
+		"items": [
+		  {
+			"name": "Micro-frontends",
+			"ring": "Adopt",
+			"moved": 0,
+			"description": "An architectural style where independently deliverable frontend applications are composed into a greater whole."
+		  },
+		  {
+			"name": "TDD",
+			"ring": "Adopt",
+			"moved": 1,
+			"description": "Test-Driven Development: A software development process that relies on the repetition of a very short development cycle."
+		  }
+		]
+	  },
+	  {
+		"name": "Tools",
+		"items": [
+		  {
+			"name": "Docker",
+			"ring": "Adopt",
+			"moved": -1,
+			"description": "A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers."
+		  },
+		  {
+			"name": "Kubernetes",
+			"ring": "Trial",
+			"moved": 0,
+			"description": "An open-source system for automating deployment, scaling, and management of containerized applications."
+		  }
+		]
+	  },
+	  {
+		"name": "Platforms",
+		"items": [
+		  {
+			"name": "AWS",
+			"ring": "Adopt",
+			"moved": 0,
+			"description": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services."
+		  },
+		  {
+			"name": "Azure",
+			"ring": "Assess",
+			"moved": 1,
+			"description": "Microsoft Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services."
+		  }
+		]
+	  },
+	  {
+		"name": "Languages & Frameworks",
+		"items": [
+		  {
+			"name": "TypeScript",
+			"ring": "Adopt",
+			"moved": 0,
+			"description": "An open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions."
+		  },
+		  {
+			"name": "React",
+			"ring": "Adopt",
+			"moved": -1,
+			"description": "A JavaScript library for building user interfaces."
+		  }
+		]
+	  }
+	]
+  }
+}
