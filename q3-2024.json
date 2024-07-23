@@ -14,7 +14,7 @@
     "description": ""
   },
   {
-    "name": "Microcontainers (micronaut,quarkus",
+    "name": "Microcontainers (micronaut,quarkus)",
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
@@ -22,21 +22,21 @@
   },
   {
     "name": "AWS Lambda",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "AWS SAM",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": "<p>The <strong><a href=\"https://aws.amazon.com/serverless/sam/\">AWS Serverless Application Model (SAM)</a></strong> is an open-source framework for building serverless applications on the AWS Cloud infrastructure. Previously we blipped <a href=\"/radar/tools/serverless-framework\">Serverless Framework</a> as a popular framework for deploying serverless services on various cloud providers, primarily <a href=\"/radar/platforms/aws-lambda\">AWS Lambda</a>-based services. AWS SAM has gained popularity in recent times as the framework has come a long way from its early days. Our teams have found it very easy to set up, and they also use it for testing and debugging AWS Lambda-based services, including local executions of Lambdas for development.</p>"
   },
   {
     "name": "Unified Cloud Testing (Mabl)",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "TRUE",
     "description": ""
@@ -57,7 +57,7 @@
   },
   {
     "name": "GitHub Copilot",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "<p><strong><a href=\"https://github.com/features/copilot\">GitHub Copilot</a></strong> is used by many of our teams to help them write code faster. Overall, most of our developers find it very useful and would be cross if we took it away from them. We've been collating and sharing many of our experiences with Copilot through <a href=\"https://martinfowler.com/articles/exploring-gen-ai.html\">a series on Generative AI</a> and <a href=\"https://www.thoughtworks.com/insights/blog/generative-ai/getting-started-with-github-copilot\">a guide on getting started with Copilot</a>. Note that GitHub Copilot can be used with any codebase, not just codebases hosted on GitHub.</p>\n\n<p>We're also excited that Copilot's chat feature from the <a href=\"https://github.com/features/preview/copilot-x\">Copilot X roadmap</a> has become more widely available since we last featured it in the Radar. It is a powerful addition to Copilot's in-line assistance feature. The availability of a chat interface inside the IDE improves the discoverability of commonly searched information, and integration with the open editor context makes it easy to explore errors or ask the chat to assist with tasks related to the code in focus.</p>"
