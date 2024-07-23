@@ -114,21 +114,21 @@
   {
     "name": "Kafka Connect",
     "ring": "trial",
-    "quadrant": "",
+    "quadrant": "platforms",
     "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "Apache Flink",
     "ring": "assess",
-    "quadrant": "",
+    "quadrant": "platforms",
     "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "Java Development Kit v 21",
     "ring": "trial",
-    "quadrant": "",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": ""
   },
@@ -144,25 +144,25 @@
     "ring": "assess",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Evaluate CloudZero and other competitors ... TBD"
   },
   {
     "name": "Remote IDEs (CodeSpaces, Gitpod)",
     "ring": "assess",
-    "quadrant": "",
+    "quadrant": "assess",
     "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "ESRI",
-    "ring": "",
-    "quadrant": "",
+    "ring": "trial",
+    "quadrant": "platforms",
     "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "LocalStack",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": ""
