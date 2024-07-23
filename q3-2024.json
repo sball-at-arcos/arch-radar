@@ -1,212 +1,212 @@
 [
   {
     "name": "Event Driven Architecture (Kafka)",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
-    "isNew" : "TRUE",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
     "description": "TEST"
   },
   {
     "name": "GraalVM",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew" : "FALSE",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "Microcontainers (micronaut,quarkus",
-    "ring": "Trial",
-    "quadrant": "languages-and-frameworks",
-    "isNew" : "FALSE",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "AWS Lambda",
-    "ring": "Trial",
-    "quadrant": "Platforms",
-    "isNew" : "FALSE",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "AWS SAM",
-    "ring": "Trial",
-    "quadrant": "languages-and-frameworks",
-    "isNew" : "TRUE",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
     "description": "<p>The <strong><a href=\"https://aws.amazon.com/serverless/sam/\">AWS Serverless Application Model (SAM)</a></strong> is an open-source framework for building serverless applications on the AWS Cloud infrastructure. Previously we blipped <a href=\"/radar/tools/serverless-framework\">Serverless Framework</a> as a popular framework for deploying serverless services on various cloud providers, primarily <a href=\"/radar/platforms/aws-lambda\">AWS Lambda</a>-based services. AWS SAM has gained popularity in recent times as the framework has come a long way from its early days. Our teams have found it very easy to set up, and they also use it for testing and debugging AWS Lambda-based services, including local executions of Lambdas for development.</p>"
   },
   {
     "name": "Unified Cloud Testing (Mabl)",
-    "ring": "Assess",
-    "quadrant": "Techniques",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
     "description": ""
   },
   {
     "name": "pgvector",
-    "ring": "Assess",
-    "quadrant": "Platforms",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
     "description": "<p>With the rise of Generative AI-powered applications, we see a pattern of storing and efficiently searching <a href=\"https://www.featureform.com/post/the-definitive-guide-to-embeddings\">embeddings</a> vectors for similarities. <strong><a href=\"https://github.com/pgvector/pgvector\">pgvector</a></strong> is an open-source vector similarity search extension for PostgreSQL. We quite like it because it enables us to search the embeddings in PostgreSQL without moving the data to another store just for similarity search. Although there are several specialized <a href=\"https://github.com/currentslab/awesome-vector-search\">vector search engines</a>, we want you to assess pgvector.</p>"
   },
   {
     "name": "Mermaid",
-    "ring": "Adopt",
-    "quadrant": "Tools",
+    "ring": "adopt",
+    "quadrant": "tools",
     "isNew": false,
     "description": "<p><a href=\"https://mermaid.js.org/\"><strong>Mermaid</strong></a> lets you generate diagrams from a Markdown-like markup language. Since we last featured it in the Radar, Mermaid has added support for many more diagrams and <a href=\"https://mermaid.js.org/ecosystem/integrations.html\">integrations</a> with source code repositories, IDEs and knowledge management tools. Notably, it's supported natively in popular source code repositories such as GitHub and GitLab, enabling the embedding of and easy updates to Mermaid diagrams in the middle of Markdown documentation. Many of our teams gravitate toward Mermaid as their diagram-as-code tool due to its ease of use, multitude of integrations and wide variety of supported diagram types that keep growing.</p>"
   },
   {
     "name": "GitHub Copilot",
-    "ring": "Trial",
-    "quadrant": "Tools",
+    "ring": "trial",
+    "quadrant": "tools",
     "isNew": false,
     "description": "<p><strong><a href=\"https://github.com/features/copilot\">GitHub Copilot</a></strong> is used by many of our teams to help them write code faster. Overall, most of our developers find it very useful and would be cross if we took it away from them. We've been collating and sharing many of our experiences with Copilot through <a href=\"https://martinfowler.com/articles/exploring-gen-ai.html\">a series on Generative AI</a> and <a href=\"https://www.thoughtworks.com/insights/blog/generative-ai/getting-started-with-github-copilot\">a guide on getting started with Copilot</a>. Note that GitHub Copilot can be used with any codebase, not just codebases hosted on GitHub.</p>\n\n<p>We're also excited that Copilot's chat feature from the <a href=\"https://github.com/features/preview/copilot-x\">Copilot X roadmap</a> has become more widely available since we last featured it in the Radar. It is a powerful addition to Copilot's in-line assistance feature. The availability of a chat interface inside the IDE improves the discoverability of commonly searched information, and integration with the open editor context makes it easy to explore errors or ask the chat to assist with tasks related to the code in focus.</p>"
   },
   {
     "name": "Tabnine",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
     "description": "<p><strong><a href=\"https://www.tabnine.com/\">Tabnine</a></strong> is a contender in the currently busy space of coding assistants. It provides in-line code completion suggestions and a chat directly in the IDE. Similar to <a href=\"/radar/tools/github-copilot\">GitHub Copilot</a>, Tabnine has been around since before the current hype cycle and is therefore one of the more mature products in the space. Unlike Copilot, it uses a model that is only trained on permissively licensed code and offers a version to self-host for organizations that worry about sending their code snippets to a third-party service. Tabnine is available as a limited free version as well as a paid version, which has more comprehensive suggestions and also offers a mode with a local (albeit less powerful) model that you can use without internet connection.</p>"
   },
   {
     "name": "Spring Modulith",
-    "ring": "Assess",
-    "quadrant": "languages-and-frameworks",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
     "description": "<p>Although we were early advocates for <a href=\"/radar/techniques/microservices\">microservices</a> and have seen the pattern used successfully on myriad systems, we've also seen microservices misapplied and abused, often as the result of <a href=\"/radar/techniques/microservice-envy\">microservice envy</a>. Rather than start a TRUE system with a collection of separately deployed processes, it's often advisable to start with a well-factored monolith and only break out separately deployable units when the application reaches a scale where the benefits of microservices outweigh the additional complexity inherent in distributed systems. Recently we've seen a resurgence of interest in this approach and a more detailed definition of what, exactly, constitutes a well-factored monolith. <strong><a href=\"https://spring.io/projects/spring-modulith\">Spring Modulith</a></strong> is a framework that helps you structure your code in a way that makes it easier to break out microservices when the time is right. It provides a way to modularize your code so that the logical concepts of domains and bounded context are aligned with the physical concepts of files and package structure. This alignment makes it easier to refactor the monolith when necessary and to test domains in isolation. Spring Modulith provides an in-process eventing mechanism that helps further decouple modules within a single application. Best of all, it integrates with <a href=\"/radar/tools/archunit\">ArchUnit</a> and <a href=\"https://github.com/xmolecules/jmolecules\">jmolecules</a> to automate verification of its domain-driven design rules.</p>"
   },
   {
     "name": "Playwright",
-    "ring": "Assess",
-    "quadrant": "languages-and-frameworks",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
     "isNew": false,
-    "description": "<p>With <strong><a href=\"https://playwright.dev/\">Playwright</a></strong> you can write end-to-end tests that run in Chrome, Firefox and WebKit. By using the Chrome DevTools Protocol (CDP) Playwright can offer TRUE features and eliminate many of the issues seen with WebDriver. Chromium-based browsers implement CDP directly. To support Firefox and Webkit, though, the Playwright team has to submit patches to these browsers, which may sometimes limit the framework.</p>\n\n<p>Playwright’s many features include: Built-in auto-waits, which result in tests that are more reliable and easier to understand; browser contexts, which let you test that persisting sessions across tabs work properly; and the ability to simulate notifications, geolocation and dark mode settings. Our teams are impressed with the stability Playwright brings to the test suite and like that they get feedback more quickly by running tests in parallel. Other features that set Playwright apart include better support for lazy loading and tracing. Although Playwright has some limitations — component support is currently experimental, for example — our teams consider it the go-to test framework and in some cases are migrating away from <a href=\"/radar/tools/cypress\">Cypress</a> and <a href=\"/radar/languages-and-frameworks/puppeteer\">Puppeteer</a>.</p>"
+    "description": "<p>With <strong><a href=\"https://playwright.dev/\">Playwright</a></strong> you can write end-to-end tests that run in Chrome, Firefox and WebKit. By using the Chrome Devtools Protocol (CDP) Playwright can offer TRUE features and eliminate many of the issues seen with WebDriver. Chromium-based browsers implement CDP directly. To support Firefox and Webkit, though, the Playwright team has to submit patches to these browsers, which may sometimes limit the framework.</p>\n\n<p>Playwright’s many features include: Built-in auto-waits, which result in tests that are more reliable and easier to understand; browser contexts, which let you test that persisting sessions across tabs work properly; and the ability to simulate notifications, geolocation and dark mode settings. Our teams are impressed with the stability Playwright brings to the test suite and like that they get feedback more quickly by running tests in parallel. Other features that set Playwright apart include better support for lazy loading and tracing. Although Playwright has some limitations — component support is currently experimental, for example — our teams consider it the go-to test framework and in some cases are migrating away from <a href=\"/radar/tools/cypress\">Cypress</a> and <a href=\"/radar/languages & frameworks/puppeteer\">Puppeteer</a>.</p>"
   },
   {
     "name": "LangChain",
-    "ring": "Assess",
-    "quadrant": "languages-and-frameworks",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
     "isNew": false,
-    "description": "<p><strong><a href=\"https://github.com/hwchase17/langchain\">LangChain</a></strong> is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, <a href=\"https://python.langchain.com/docs/modules/agents/\">agents</a> and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing <a href=\"/radar/techniques/retrieval-augmented-generation-rag\">Retrieval-Augmented Generation</a> applications and the <a href=\"/radar/techniques/react-prompting\">ReAct prompting</a> pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages-and-frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p>"
+    "description": "<p><strong><a href=\"https://github.com/hwchase17/langchain\">LangChain</a></strong> is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, <a href=\"https://python.langchain.com/docs/modules/agents/\">agents</a> and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing <a href=\"/radar/techniques/retrieval-augmented-generation-rag\">Retrieval-Augmented Generation</a> applications and the <a href=\"/radar/techniques/react-prompting\">ReAct prompting</a> pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages & frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p>"
   },
   {
     "name": "Retrieval-Augmented Generation (RAG)",
-    "ring": "Assess",
-    "quadrant": "Techniques",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
     "description": "<p><strong><a href=\"https://arxiv.org/abs/2005.11401v4\">Retrieval-Augmented Generation (RAG)</a></strong> is a technique to combine pretrained parametric and nonparametric memory for language generation. It enables you to augment the existing knowledge of pretrained LLMs with the private and contextual knowledge of your domain or industry. With RAG, you first retrieve a set of relevant documents from the nonparametric memory (usually via a similarity search from a vector data store) and then use the parametric memory of LLMs to generate output that is consistent with the retrieved documents. We find RAG to be an effective technique for a variety of knowledge intensive NLP tasks — including question answering, summarization and story generation.</p>"
   },
   {
     "name": "Open Source Workflow Engines",
     "ring": "",
     "quadrant": "",
-    "isNew" : "FALSE",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "Kotlin with Spring",
-    "ring": "Trial",
-    "quadrant": "languages-and-frameworks",
-    "isNew" : "TRUE",
-    "description": "<p>Five years ago we moved <a href=\"/radar/languages-and-frameworks/kotlin\">Kotlin</a> into the Adopt ring, and today many of our teams report that Kotlin is not only their default choice on the JVM but that it has displaced Java almost completely in the software they write. At the same time, <a href=\"/radar/techniques/microservice-envy\">microservice envy</a> appears to be fading — we’ve noticed people starting to explore architectures with larger deployable units, using frameworks like <a href=\"/radar/languages-and-frameworks/spring-modulith\">Spring Modulith</a> among others. We're aware of many good Kotlin-native frameworks and have mentioned some of them previously; however, in some cases, the maturity and feature-richness of the Spring framework is a real asset, and we've been using <strong>Kotlin with Spring</strong> successfully, usually with no or only smaller issues.</p>"
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "<p>Five years ago we moved <a href=\"/radar/languages & frameworks/kotlin\">Kotlin</a> into the adopt ring, and today many of our teams report that Kotlin is not only their default choice on the JVM but that it has displaced Java almost completely in the software they write. At the same time, <a href=\"/radar/techniques/microservice-envy\">microservice envy</a> appears to be fading — we’ve noticed people starting to explore architectures with larger deployable units, using frameworks like <a href=\"/radar/languages & frameworks/spring-modulith\">Spring Modulith</a> among others. We're aware of many good Kotlin-native frameworks and have mentioned some of them previously; however, in some cases, the maturity and feature-richness of the Spring framework is a real asset, and we've been using <strong>Kotlin with Spring</strong> successfully, usually with no or only smaller issues.</p>"
   },
   {
     "name": "Kafka Connect",
-    "ring": "Trial",
+    "ring": "trial",
     "quadrant": "",
-    "isNew" : "FALSE",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "Apache Flink",
-    "ring": "Assess",
+    "ring": "assess",
     "quadrant": "",
-    "isNew" : "FALSE",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "Java Development Kit v 21",
-    "ring": "Trial",
+    "ring": "trial",
     "quadrant": "",
-    "isNew" : "FALSE",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "RDS Proxy",
-    "ring": "Trial",
-    "quadrant": "Platforms",
-    "isNew" : "TRUE",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
     "description": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html"
   },
   {
     "name": "FinOps",
-    "ring": "Assess",
-    "quadrant": "Techniques",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
     "description": ""
   },
   {
     "name": "Remote IDEs (CodeSpaces, Gitpod)",
-    "ring": "Assess",
+    "ring": "assess",
     "quadrant": "",
-    "isNew" : "FALSE",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "ESRI",
     "ring": "",
     "quadrant": "",
-    "isNew" : "FALSE",
+    "isNew": "FALSE",
     "description": ""
   },
   {
     "name": "LocalStack",
-    "ring": "Trial",
-    "quadrant": "Tools",
-    "isNew" : "TRUE",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
     "description": ""
   },
   {
     "name": "Conduktor",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew" : "TRUE",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
     "description": ""
   },
   {
     "name": "Dart",
-    "ring": "Trial",
-    "quadrant": "languages-and-frameworks",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
     "isNew": false,
-    "description": "<p><strong><a href=\"https://dart.dev/\">Dart</a></strong> is a programming language developed by Google that supports building apps targeting multiple platforms, including web browsers, <a href=\"/radar/languages-and-frameworks/webassembly\">WebAssembly</a>, desktop and mobile apps. Its adoption has been driven by the dominance of <a href=\"/radar/languages-and-frameworks/flutter\">Flutter</a> — a popular, multi-platform UI toolkit powered by Dart — in the cross-platform native mobile app framework space. In response to community feedback, Dart has evolved since its initial versions and has added built-in <a href=\"https://dart.dev/null-safety\">sound null safety</a> in version three, in addition to a robust type system. Furthermore, Dart's ecosystem is growing rapidly, with a vibrant community and a wide range of available libraries and tools, making it attractive for developers.</p>"
+    "description": "<p><strong><a href=\"https://dart.dev/\">Dart</a></strong> is a programming language developed by Google that supports building apps targeting multiple platforms, including web browsers, <a href=\"/radar/languages & frameworks/webassembly\">WebAssembly</a>, desktop and mobile apps. Its adoption has been driven by the dominance of <a href=\"/radar/languages & frameworks/flutter\">Flutter</a> — a popular, multi-platform UI toolkit powered by Dart — in the cross-platform native mobile app framework space. In response to community feedback, Dart has evolved since its initial versions and has added built-in <a href=\"https://dart.dev/null-safety\">sound null safety</a> in version three, in addition to a robust type system. Furthermore, Dart's ecosystem is growing rapidly, with a vibrant community and a wide range of available libraries and tools, making it attractive for developers.</p>"
   },
   {
     "name": "AWS Console Recorder",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
     "description": "<p><strong><a href=\"https://chrome.google.com/webstore/detail/console-recorder-for-aws/ganlhgooidfbijjidcpkeaohjnkeicba\"/></strong></p>"
   },
   {
     "name": "Oracle RDBMS",
-    "ring": "Hold",
-    "quadrant": "Platforms",
-    "isNew" : "TRUE",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
     "description": "<p><strong></strong></p>"
   },
   {
     "name": "Architecture Unit Tests",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew" : "TRUE",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
     "description": "<p><strong>https://github.com/TNG/ArchUnitNET</strong></p>"
   },
   {
     "name": "OpenAPI",
-    "ring": "Trial",
-    "quadrant": "Tools",
-    "isNew" : "TRUE",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
     "description": "<p><strong>https://openapi-generator.tech/</strong></p>"
   }
 ]
