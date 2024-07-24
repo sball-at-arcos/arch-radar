@@ -208,5 +208,26 @@
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "<p><strong>https://openapi-generator.tech/</strong></p>"
+  },
+  {
+    "name" : "COTS Data Conversion Tools",
+    "ring" : "assess",
+    "quadrant" : "tools",
+    "isNew" : "TRUE",
+    "description" : "https://flatfile.com/platform/use-cases/data-conversion/, https://www.smartsheet.com/"  
+  },
+  {
+    "name" : "Server Side TypeScript",
+    "ring" : "trial",
+    "quadrant" : "languages & frameworks",
+    "isNew" : "TRUE",
+    "description" : "https://www.typescriptlang.org/"  
+  },
+  {
+    "name" : "Expand Contract Pattern",
+    "ring" : "techniques",
+    "quadrant" : "trial",
+    "isNew" : "TRUE",
+    "description" : "https://github.com/xataio/pgroll, https://github.com/fabianlindfors/reshape"  
   }
 ]
