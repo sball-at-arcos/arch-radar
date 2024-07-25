@@ -239,14 +239,14 @@
 	},
 	{
 		"name": "AWS SNS",
-		"ring": "assess",
+		"ring": "trial",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
 		"description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service provided by AWS. It enables the delivery of messages from publishers to subscribers using a variety of endpoints, such as email, SMS, HTTP/HTTPS, and AWS Lambda functions. This will be used to replace the current RosterApps Payroll communication method between server and browser."
 	},
 	{
 		"name": "AWS SQS",
-		"ring": "trial",
+		"ring": "assess",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
 		"description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS. It allows you to decouple and scale microservices, distributed systems, and serverless applications by enabling communication between software components through message queues.  This will be used to replace the current RosterApps Payroll communication method between browser and server to reduce WebSocket connections."
