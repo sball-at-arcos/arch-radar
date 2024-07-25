@@ -246,16 +246,16 @@
 	},
 	{
 		"name": "AWS SQS",
-		"ring": "assess",
+		"ring": "adopt",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
-		"description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS. It allows you to decouple and scale microservices, distributed systems, and serverless applications by enabling communication between software components through message queues.  This will be used to replace the current RosterApps Payroll communication method between browser and server to reduce WebSocket connections."
+		"description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS. It allows you to decouple and scale microservices, distributed systems, and serverless applications by enabling communication between software components through message queues.  Currently being used with Push Notifications in Workbench but will also be used to replace the current RosterApps Payroll communication method between browser and server to reduce WebSocket connections."
 	},
 	{
 		"name": "AWS Fargate (ECS .NET)",
 		"ring": "trial",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
-		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server."
+		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform."
 	}
 ]
