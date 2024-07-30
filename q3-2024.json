@@ -11,21 +11,21 @@
     "ring": "assess",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": ""
+    "description": "GraalVM provides a versatile and high-performance runtime environment that supports multiple programming languages and execution modes. Its advanced features for native compilation, polyglot capabilities, and performance optimization make it suitable for a wide range of modern application requirements."
   },
   {
     "name": "Microcontainers (micronaut,quarkus)",
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": ""
+    "description": "Both Micronaut and Quarkus are modern frameworks that cater to the needs of developing efficient, scalable, and cloud-native Java applications."
   },
   {
     "name": "AWS Lambda",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": ""
+    "description": "AWS Lambda provides a flexible, scalable, and cost-efficient way to run code in response to events, making it a powerful tool for building and managing serverless applications and services."
   },
   {
     "name": "AWS SAM",
@@ -39,7 +39,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Mabl provides a robust platform for automated testing with a focus on web applications. While it is not specifically a unit testing tool, it can complement unit tests by offering end-to-end and visual testing capabilities, enhancing overall test coverage and quality assurance."
   },
   {
     "name": "pgvector",
@@ -116,14 +116,14 @@
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": ""
+    "description": "Kafka Connect simplifies the integration of Kafka with external systems, making it easier to build data pipelines and stream data between various sources and sinks with minimal custom code."
   },
   {
     "name": "Apache Flink",
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": ""
+    "description": "Apache Flink is a powerful framework for real-time data processing, providing capabilities for both stream and batch processing. Its advanced features for state management, fault tolerance, and time handling make it a suitable choice for a wide range of real-time data processing and analytics applications."
   },
   {
     "name": "Java Development Kit v 21",
@@ -168,13 +168,6 @@
     "description": "LocalStack is valuable for developers working on cloud-based applications, as it streamlines development workflows, reduces costs, and allows for comprehensive testing in a local environment."
   },
   {
-    "name": "Conduktor",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
     "name": "Dart",
     "ring": "trial",
     "quadrant": "languages & frameworks",
@@ -207,7 +200,7 @@
     "ring": "trial",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "<p><strong>https://openapi-generator.tech/</strong></p>"
+    "description": "<p><strong>OpenAPI simplifies the process of designing, documenting, and interacting with RESTful APIs, making it easier for developers to build, consume, and manage APIs. https://openapi-generator.tech/</strong></p>"
   },
   {
     "name" : "COTS Data Conversion Tools",
@@ -228,7 +221,7 @@
     "ring" : "techniques",
     "quadrant" : "trial",
     "isNew" : "TRUE",
-    "description" : "https://github.com/xataio/pgroll, https://github.com/fabianlindfors/reshape"  
+    "description" : "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. https://github.com/xataio/pgroll, https://github.com/fabianlindfors/reshape"  
   },	
   {
 		"name": "AWS Gateway API v2 (WebSockets)",
