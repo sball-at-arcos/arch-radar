@@ -98,11 +98,11 @@
     "description": "<p><strong><a href=\"https://arxiv.org/abs/2005.11401v4\">Retrieval-Augmented Generation (RAG)</a></strong> is a technique to combine pretrained parametric and nonparametric memory for language generation. It enables you to augment the existing knowledge of pretrained LLMs with the private and contextual knowledge of your domain or industry. With RAG, you first retrieve a set of relevant documents from the nonparametric memory (usually via a similarity search from a vector data store) and then use the parametric memory of LLMs to generate output that is consistent with the retrieved documents. We find RAG to be an effective technique for a variety of knowledge intensive NLP tasks — including question answering, summarization and story generation.</p>"
   },
   {
-    "name": "Open Source Workflow Engines",
-    "ring": "",
-    "quadrant": "",
+    "name": "AWS Step Functions - (Workflow Engine)",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": ""
+    "description": "AWS Step Functions is a powerful tool for orchestrating complex workflows, simplifying the coordination of tasks, and improving the reliability and maintainability of distributed applications."
   },
   {
     "name": "Kotlin with Spring",
@@ -130,42 +130,42 @@
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": ""
+    "description": "JDK 21 brings significant improvements in concurrency, pattern matching, and native code interaction, along with enhancements to existing features and APIs. These changes aim to make Java development more efficient, expressive, and robust."
   },
   {
     "name": "RDS Proxy",
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html"
+    "description": "Amazon RDS Proxy is a fully managed, highly available database proxy service for Amazon RDS and Amazon Aurora. It provides several benefits that can enhance the performance, scalability, and security of your database applications. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html"
   },
   {
     "name": "FinOps",
     "ring": "assess",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": "Evaluate CloudZero and other competitors ... TBD"
+    "description": "Cloud-based FinOps (Financial Operations) tools are designed to help organizations manage, optimize, and control their cloud spending.  Examples include CloudZero, CloudHealth"
   },
   {
-    "name": "Remote IDEs (CodeSpaces, Gitpod)",
+    "name": "Cloud Based IDEs",
     "ring": "assess",
     "quadrant": "assess",
     "isNew": "FALSE",
-    "description": ""
+    "description": "Remote cloud-based Integrated Development Environments (IDEs) are platforms that allow developers to write, test, and debug code entirely through a web browser, without needing to install any software locally.  Examples include CodeSpaces, Gitpod"
   },
   {
-    "name": "ESRI",
+    "name": "ESRI - ArcGIS",
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": ""
+    "description": "he flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online)."
   },
   {
     "name": "LocalStack",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": ""
+    "description": "LocalStack is valuable for developers working on cloud-based applications, as it streamlines development workflows, reduces costs, and allows for comprehensive testing in a local environment."
   },
   {
     "name": "Conduktor",
@@ -193,7 +193,7 @@
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "<p><strong></strong></p>"
+    "description": "<p>Oracle’s licensing model can be complex and costly. It often involves charges based on the number of processors, users, or databases. Licensing fees can be high, especially for enterprise editions with advanced features.</p>"
   },
   {
     "name": "Architecture Unit Tests",
@@ -221,7 +221,7 @@
     "ring" : "trial",
     "quadrant" : "languages & frameworks",
     "isNew" : "TRUE",
-    "description" : "https://www.typescriptlang.org/"  
+    "description" : "Using TypeScript on the server side can greatly enhance the development experience, improve code quality, and ensure that your backend applications are robust, maintainable, and scalable. https://www.typescriptlang.org/"  
   },
   {
     "name" : "Expand Contract Pattern",
@@ -271,5 +271,12 @@
 		"quadrant": "platforms",
 		"isNew": "FALSE",
 		"description": "WCF Web Services (SOAP) is a legacy technology and is no longer recommended for new development. We have achieved functional parity with our WebAPI (REST) services and should transition all customers to these instead."
+	},
+  {
+		"name": "Change Data Capture",
+		"ring": "adopt",
+		"quadrant": "techniques",
+		"isNew": "FALSE",
+		"description": "CDC helps track and record changes (inserts, updates, deletes) to data in real-time or near-real-time. This is useful for data synchronization, replication, analytics, and monitoring."
 	}
 ]
