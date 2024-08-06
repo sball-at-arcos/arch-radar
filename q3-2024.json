@@ -271,5 +271,19 @@
 		"quadrant": "techniques",
 		"isNew": "FALSE",
 		"description": "CDC helps track and record changes (inserts, updates, deletes) to data in real-time or near-real-time. This is useful for data synchronization, replication, analytics, and monitoring."
-	}
+	},
+    {
+        "name": "Docker",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly."
+    },
+    {
+        "name": "Amazon ElastiCache",
+		"ring": "adopt",
+		"quadrant": "platforms",
+		"isNew": "FALSE",
+		"description": "Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services. It allows for data retrieval from shared in-memory data store rather than individual local server memory."
+    }
 ]
