@@ -272,18 +272,25 @@
 		"isNew": "FALSE",
 		"description": "CDC helps track and record changes (inserts, updates, deletes) to data in real-time or near-real-time. This is useful for data synchronization, replication, analytics, and monitoring."
 	},
-    {
-        "name": "Docker",
+  {
+		"name": "ProtoMaps",
+		"ring": "assess",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "PMTiles is a single-file archive format for tiled data. A PMTiles archive can be hosted on a commodity storage platform such as S3, and enables low-cost, zero-maintenance map applications that are \"serverless\" - free of a custom tile backend or third party provider.. https://github.com/protomaps/PMTiles https://arcos-protomaps-poc.s3.us-east-2.amazonaws.com/index.html"
+  },
+  {
+    "name": "Docker",
 		"ring": "adopt",
 		"quadrant": "tools",
 		"isNew": "FALSE",
 		"description": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly."
-    },
-    {
-        "name": "Amazon ElastiCache",
+  },
+  {
+    "name": "Amazon ElastiCache",
 		"ring": "adopt",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
 		"description": "Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services. It allows for data retrieval from shared in-memory data store rather than individual local server memory."
-    }
+  }
 ]
