@@ -228,7 +228,7 @@
 		"ring": "trial",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
-		"description": "Amazon API Gateway v2 WebSockets allows you to create and manage WebSocket APIs, which enable bidirectional communication between clients and servers.  This will be used to replace the current RosterApps Payroll communication method between browser and server."
+		"description": "Amazon API Gateway v2 WebSockets allows you to create and manage WebSocket APIs, which enable bidirectional communication between clients and servers.  This will be used to replace the current RosterApps Payroll communication method between browser and server. https://rostermonster.atlassian.net/browse/EB-198"
 	},
 	{
 		"name": "AWS SNS",
