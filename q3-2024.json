@@ -193,7 +193,7 @@
     "ring": "assess",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong>https://github.com/TNG/ArchUnitNET</strong></p>"
+    "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong>https://github.com/TNG/ArchUnitNET</strong> https://rostermonster.atlassian.net/browse/EB-283</p>"
   },
   {
     "name": "OpenAPI",
