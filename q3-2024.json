@@ -158,7 +158,7 @@
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "The flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online). https://rostermonster.atlassian.net/browse/EB-285"
+    "description": "The flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online). <a href=\"https://rostermonster.atlassian.net/browse/EB-285\">EB-285</a>"
   },
   {
     "name": "LocalStack",
@@ -249,7 +249,7 @@
 		"ring": "trial",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
-		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform. https://rostermonster.atlassian.net/browse/EB-247"
+		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform. <a href=\"https://rostermonster.atlassian.net/browse/EB-247"
 	},
 	{
 		"name": ".NET 8 Upgrade",
