@@ -4,7 +4,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": "TEST"
+    "description": "Event-driven architecture (EDA) is a design paradigm where the flow of information and decision-making is driven by the occurrence of events. In an EDA, services or components communicate and respond to events asynchronously, which promotes loose coupling and scalability. Apache Kafka serves as a robust backbone for implementing event-driven architecture, enabling real-time, scalable, and loosely-coupled communication between services through event streams."
   },
   {
     "name": "GraalVM",
@@ -116,7 +116,7 @@
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Kafka Connect simplifies the integration of Kafka with external systems, making it easier to build data pipelines and stream data between various sources and sinks with minimal custom code."
+    "description": "Kafka Connect simplifies the integration of Kafka with external systems, making it easier to build data pipelines and stream data between various sources and sinks with minimal custom code. https://rostermonster.atlassian.net/browse/EB-202"
   },
   {
     "name": "Apache Flink",
@@ -137,7 +137,7 @@
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "Amazon RDS Proxy is a fully managed, highly available database proxy service for Amazon RDS and Amazon Aurora. It provides several benefits that can enhance the performance, scalability, and security of your database applications. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html"
+    "description": "Amazon RDS Proxy is a fully managed, highly available database proxy service for Amazon RDS and Amazon Aurora. It provides several benefits that can enhance the performance, scalability, and security of your database applications. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html https://rostermonster.atlassian.net/browse/EB-218"
   },
   {
     "name": "FinOps",
@@ -158,7 +158,7 @@
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "he flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online)."
+    "description": "The flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online). https://rostermonster.atlassian.net/browse/EB-285"
   },
   {
     "name": "LocalStack",
@@ -193,7 +193,7 @@
     "ring": "assess",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "<p><strong>https://github.com/TNG/ArchUnitNET</strong></p>"
+    "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong>https://github.com/TNG/ArchUnitNET</strong></p>"
   },
   {
     "name": "OpenAPI",
@@ -221,7 +221,7 @@
     "ring" : "techniques",
     "quadrant" : "trial",
     "isNew" : "TRUE",
-    "description" : "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. https://github.com/xataio/pgroll, https://github.com/fabianlindfors/reshape"  
+    "description" : "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. https://github.com/xataio/pgroll, https://github.com/fabianlindfors/reshape https://rostermonster.atlassian.net/browse/EB-284"  
   },	
   {
 		"name": "AWS Gateway API v2 (WebSockets)",
@@ -249,7 +249,7 @@
 		"ring": "trial",
 		"quadrant": "platforms",
 		"isNew": "FALSE",
-		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform."
+		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform. https://rostermonster.atlassian.net/browse/EB-247"
 	},
 	{
 		"name": ".NET 8 Upgrade",
