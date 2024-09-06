@@ -299,5 +299,12 @@
       "quadrant": "tools",
       "isNew": "TRUE",
       "description": "pgroll is an open source command-line tool that offers safe and reversible schema migrations for PostgreSQL by serving multiple schema versions simultaneously. This is a tool being assessed for the Expand Contract Pattern initiative"
+  },
+  {
+    "name" : "Blue-Green Deployment",
+    "ring" : "assess",
+    "quadrant" : "techniques",
+    "isNew" : "TRUE",
+    "description" : "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks."  
   }
 ]
