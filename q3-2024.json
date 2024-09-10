@@ -149,7 +149,7 @@
   {
     "name": "Cloud Based IDEs",
     "ring": "assess",
-    "quadrant": "assess",
+    "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Remote cloud-based Integrated Development Environments (IDEs) are platforms that allow developers to write, test, and debug code entirely through a web browser, without needing to install any software locally.  Examples include CodeSpaces, Gitpod"
   },
@@ -218,8 +218,8 @@
   },
   {
     "name" : "Expand Contract Pattern",
-    "ring" : "techniques",
-    "quadrant" : "trial",
+    "ring" : "trial",
+    "quadrant" : "techniques",
     "isNew" : "TRUE",
     "description" : "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. <a href='https://github.com/xataio/pgroll'>pgroll</a>, <a href='https://github.com/fabianlindfors/reshape'>reshape</a> <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a>"  
   },    
@@ -280,17 +280,24 @@
         "description": "PMTiles is a single-file archive format for tiled data. A PMTiles archive can be hosted on a commodity storage platform such as S3, and enables low-cost, zero-maintenance map applications that are \"serverless\" - free of a custom tile backend or third party provider.. <a href='https://github.com/protomaps/PMTiles'>PMTiles</a> <a href='https://arcos-protomaps-poc.s3.us-east-2.amazonaws.com/index.html'>ProtoMaps</a>"
   },
   {
-    "name": "Docker",
+        "name": "Docker",
         "ring": "adopt",
         "quadrant": "tools",
         "isNew": "FALSE",
         "description": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly."
   },
   {
-    "name": "Amazon ElastiCache",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services. It allows for data retrieval from shared in-memory data store rather than individual local server memory."
+        "name": "Amazon ElastiCache",
+		    "ring": "adopt",
+		    "quadrant": "platforms",
+		    "isNew": "FALSE",
+		    "description": "Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services. It allows for data retrieval from shared in-memory data store rather than individual local server memory."
+  },
+  {
+        "name": "pgroll",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "pgroll is an open source command-line tool that offers safe and reversible schema migrations for PostgreSQL by serving multiple schema versions simultaneously. This is a tool being assessed for the Expand Contract Pattern initiative"
   }
 ]
