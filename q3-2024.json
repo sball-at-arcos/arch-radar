@@ -1,310 +1,310 @@
 [
-  {
-    "name": "Event Driven Architecture (Kafka)",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "isNew": "TRUE",
-    "description": "Event-driven architecture (EDA) is a design paradigm where the flow of information and decision-making is driven by the occurrence of events. In an EDA, services or components communicate and respond to events asynchronously, which promotes loose coupling and scalability. Apache Kafka serves as a robust backbone for implementing event-driven architecture, enabling real-time, scalable, and loosely-coupled communication between services through event streams."
-  },
-  {
-    "name": "GraalVM",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "GraalVM provides a versatile and high-performance runtime environment that supports multiple programming languages and execution modes. Its advanced features for native compilation, polyglot capabilities, and performance optimization make it suitable for a wide range of modern application requirements."
-  },
-  {
-    "name": "Microcontainers (micronaut,quarkus)",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Both Micronaut and Quarkus are modern frameworks that cater to the needs of developing efficient, scalable, and cloud-native Java applications."
-  },
-  {
-    "name": "AWS Lambda",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "AWS Lambda provides a flexible, scalable, and cost-efficient way to run code in response to events, making it a powerful tool for building and managing serverless applications and services."
-  },
-  {
-    "name": "AWS SAM",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "<p>The <strong><a href=\"https://aws.amazon.com/serverless/sam/\">AWS Serverless Application Model (SAM)</a></strong> is an open-source framework for building serverless applications on the AWS Cloud infrastructure. Previously we blipped <a href=\"/radar/tools/serverless-framework\">Serverless Framework</a> as a popular framework for deploying serverless services on various cloud providers, primarily <a href=\"/radar/platforms/aws-lambda\">AWS Lambda</a>-based services. AWS SAM has gained popularity in recent times as the framework has come a long way from its early days. Our teams have found it very easy to set up, and they also use it for testing and debugging AWS Lambda-based services, including local executions of Lambdas for development.</p>"
-  },
-  {
-    "name": "Unified Cloud Testing (Mabl)",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "isNew": "TRUE",
-    "description": "Mabl provides a robust platform for automated testing with a focus on web applications. While it is not specifically a unit testing tool, it can complement unit tests by offering end-to-end and visual testing capabilities, enhancing overall test coverage and quality assurance."
-  },
-  {
-    "name": "pgvector",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "<p>With the rise of Generative AI-powered applications, we see a pattern of storing and efficiently searching <a href=\"https://www.featureform.com/post/the-definitive-guide-to-embeddings\">embeddings</a> vectors for similarities. <strong><a href=\"https://github.com/pgvector/pgvector\">pgvector</a></strong> is an open-source vector similarity search extension for PostgreSQL. We quite like it because it enables us to search the embeddings in PostgreSQL without moving the data to another store just for similarity search. Although there are several specialized <a href=\"https://github.com/currentslab/awesome-vector-search\">vector search engines</a>, we want you to assess pgvector.</p>"
-  },
-  {
-    "name": "Mermaid",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "<p><a href=\"https://mermaid.js.org/\"><strong>Mermaid</strong></a> lets you generate diagrams from a Markdown-like markup language. Since we last featured it in the Radar, Mermaid has added support for many more diagrams and <a href=\"https://mermaid.js.org/ecosystem/integrations.html\">integrations</a> with source code repositories, IDEs and knowledge management tools. Notably, it's supported natively in popular source code repositories such as GitHub and GitLab, enabling the embedding of and easy updates to Mermaid diagrams in the middle of Markdown documentation. Many of our teams gravitate toward Mermaid as their diagram-as-code tool due to its ease of use, multitude of integrations and wide variety of supported diagram types that keep growing.</p>"
-  },
-  {
-    "name": "GitHub Copilot",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://github.com/features/copilot\">GitHub Copilot</a></strong> is used by many of our teams to help them write code faster. Overall, most of our developers find it very useful and would be cross if we took it away from them. We've been collating and sharing many of our experiences with Copilot through <a href=\"https://martinfowler.com/articles/exploring-gen-ai.html\">a series on Generative AI</a> and <a href=\"https://www.thoughtworks.com/insights/blog/generative-ai/getting-started-with-github-copilot\">a guide on getting started with Copilot</a>. Note that GitHub Copilot can be used with any codebase, not just codebases hosted on GitHub.</p>\n\n<p>We're also excited that Copilot's chat feature from the <a href=\"https://github.com/features/preview/copilot-x\">Copilot X roadmap</a> has become more widely available since we last featured it in the Radar. It is a powerful addition to Copilot's in-line assistance feature. The availability of a chat interface inside the IDE improves the discoverability of commonly searched information, and integration with the open editor context makes it easy to explore errors or ask the chat to assist with tasks related to the code in focus.</p>"
-  },
-  {
-    "name": "Tabnine",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://www.tabnine.com/\">Tabnine</a></strong> is a contender in the currently busy space of coding assistants. It provides in-line code completion suggestions and a chat directly in the IDE. Similar to <a href=\"/radar/tools/github-copilot\">GitHub Copilot</a>, Tabnine has been around since before the current hype cycle and is therefore one of the more mature products in the space. Unlike Copilot, it uses a model that is only trained on permissively licensed code and offers a version to self-host for organizations that worry about sending their code snippets to a third-party service. Tabnine is available as a limited free version as well as a paid version, which has more comprehensive suggestions and also offers a mode with a local (albeit less powerful) model that you can use without internet connection.</p>"
-  },
-  {
-    "name": "Spring Modulith",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "<p>Although we were early advocates for <a href=\"/radar/techniques/microservices\">microservices</a> and have seen the pattern used successfully on myriad systems, we've also seen microservices misapplied and abused, often as the result of <a href=\"/radar/techniques/microservice-envy\">microservice envy</a>. Rather than start a TRUE system with a collection of separately deployed processes, it's often advisable to start with a well-factored monolith and only break out separately deployable units when the application reaches a scale where the benefits of microservices outweigh the additional complexity inherent in distributed systems. Recently we've seen a resurgence of interest in this approach and a more detailed definition of what, exactly, constitutes a well-factored monolith. <strong><a href=\"https://spring.io/projects/spring-modulith\">Spring Modulith</a></strong> is a framework that helps you structure your code in a way that makes it easier to break out microservices when the time is right. It provides a way to modularize your code so that the logical concepts of domains and bounded context are aligned with the physical concepts of files and package structure. This alignment makes it easier to refactor the monolith when necessary and to test domains in isolation. Spring Modulith provides an in-process eventing mechanism that helps further decouple modules within a single application. Best of all, it integrates with <a href=\"/radar/tools/archunit\">ArchUnit</a> and <a href=\"https://github.com/xmolecules/jmolecules\">jmolecules</a> to automate verification of its domain-driven design rules.</p>"
-  },
-  {
-    "name": "Playwright",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "<p>With <strong><a href=\"https://playwright.dev/\">Playwright</a></strong> you can write end-to-end tests that run in Chrome, Firefox and WebKit. By using the Chrome Devtools Protocol (CDP) Playwright can offer TRUE features and eliminate many of the issues seen with WebDriver. Chromium-based browsers implement CDP directly. To support Firefox and Webkit, though, the Playwright team has to submit patches to these browsers, which may sometimes limit the framework.</p>\n\n<p>Playwright’s many features include: Built-in auto-waits, which result in tests that are more reliable and easier to understand; browser contexts, which let you test that persisting sessions across tabs work properly; and the ability to simulate notifications, geolocation and dark mode settings. Our teams are impressed with the stability Playwright brings to the test suite and like that they get feedback more quickly by running tests in parallel. Other features that set Playwright apart include better support for lazy loading and tracing. Although Playwright has some limitations — component support is currently experimental, for example — our teams consider it the go-to test framework and in some cases are migrating away from <a href=\"/radar/tools/cypress\">Cypress</a> and <a href=\"/radar/languages & frameworks/puppeteer\">Puppeteer</a>.</p>"
-  },
-  {
-    "name": "LangChain",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://github.com/hwchase17/langchain\">LangChain</a></strong> is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, <a href=\"https://python.langchain.com/docs/modules/agents/\">agents</a> and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing <a href=\"/radar/techniques/retrieval-augmented-generation-rag\">Retrieval-Augmented Generation</a> applications and the <a href=\"/radar/techniques/react-prompting\">ReAct prompting</a> pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages & frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p>"
-  },
-  {
-    "name": "Retrieval-Augmented Generation (RAG)",
-    "ring": "assess",
-    "quadrant": "techniques",
-    "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://arxiv.org/abs/2005.11401v4\">Retrieval-Augmented Generation (RAG)</a></strong> is a technique to combine pretrained parametric and nonparametric memory for language generation. It enables you to augment the existing knowledge of pretrained LLMs with the private and contextual knowledge of your domain or industry. With RAG, you first retrieve a set of relevant documents from the nonparametric memory (usually via a similarity search from a vector data store) and then use the parametric memory of LLMs to generate output that is consistent with the retrieved documents. We find RAG to be an effective technique for a variety of knowledge intensive NLP tasks — including question answering, summarization and story generation.</p>"
-  },
-  {
-    "name": "AWS Step Functions - (Workflow Engine)",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "AWS Step Functions is a powerful tool for orchestrating complex workflows, simplifying the coordination of tasks, and improving the reliability and maintainability of distributed applications."
-  },
-  {
-    "name": "Kotlin with Spring",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "<p>Five years ago we moved <a href=\"/radar/languages & frameworks/kotlin\">Kotlin</a> into the adopt ring, and today many of our teams report that Kotlin is not only their default choice on the JVM but that it has displaced Java almost completely in the software they write. At the same time, <a href=\"/radar/techniques/microservice-envy\">microservice envy</a> appears to be fading — we’ve noticed people starting to explore architectures with larger deployable units, using frameworks like <a href=\"/radar/languages & frameworks/spring-modulith\">Spring Modulith</a> among others. We're aware of many good Kotlin-native frameworks and have mentioned some of them previously; however, in some cases, the maturity and feature-richness of the Spring framework is a real asset, and we've been using <strong>Kotlin with Spring</strong> successfully, usually with no or only smaller issues.</p>"
-  },
-  {
-    "name": "Kafka Connect",
-    "ring": "trial",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Kafka Connect simplifies the integration of Kafka with external systems, making it easier to build data pipelines and stream data between various sources and sinks with minimal custom code. https://rostermonster.atlassian.net/browse/EB-202"
-  },
-  {
-    "name": "Apache Flink",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Apache Flink is a powerful framework for real-time data processing, providing capabilities for both stream and batch processing. Its advanced features for state management, fault tolerance, and time handling make it a suitable choice for a wide range of real-time data processing and analytics applications."
-  },
-  {
-    "name": "Java Development Kit v 21",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "JDK 21 brings significant improvements in concurrency, pattern matching, and native code interaction, along with enhancements to existing features and APIs. These changes aim to make Java development more efficient, expressive, and robust."
-  },
-  {
-    "name": "RDS Proxy",
-    "ring": "trial",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Amazon RDS Proxy is a fully managed, highly available database proxy service for Amazon RDS and Amazon Aurora. It provides several benefits that can enhance the performance, scalability, and security of your database applications. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html https://rostermonster.atlassian.net/browse/EB-218"
-  },
-  {
-    "name": "FinOps",
-    "ring": "assess",
-    "quadrant": "techniques",
-    "isNew": "TRUE",
-    "description": "Cloud-based FinOps (Financial Operations) tools are designed to help organizations manage, optimize, and control their cloud spending.  Examples include CloudZero, CloudHealth"
-  },
-  {
-    "name": "Cloud Based IDEs",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Remote cloud-based Integrated Development Environments (IDEs) are platforms that allow developers to write, test, and debug code entirely through a web browser, without needing to install any software locally.  Examples include CodeSpaces, Gitpod"
-  },
-  {
-    "name": "ESRI - ArcGIS",
-    "ring": "trial",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "The flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online). <a href=\"https://rostermonster.atlassian.net/browse/EB-285\">EB-285</a>"
-  },
-  {
-    "name": "LocalStack",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "LocalStack is valuable for developers working on cloud-based applications, as it streamlines development workflows, reduces costs, and allows for comprehensive testing in a local environment."
-  },
-  {
-    "name": "Dart",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "<p><strong><a href=\"https://dart.dev/\">Dart</a></strong> is a programming language developed by Google that supports building apps targeting multiple platforms, including web browsers, <a href=\"/radar/languages & frameworks/webassembly\">WebAssembly</a>, desktop and mobile apps. Its adoption has been driven by the dominance of <a href=\"/radar/languages & frameworks/flutter\">Flutter</a> — a popular, multi-platform UI toolkit powered by Dart — in the cross-platform native mobile app framework space. In response to community feedback, Dart has evolved since its initial versions and has added built-in <a href=\"https://dart.dev/null-safety\">sound null safety</a> in version three, in addition to a robust type system. Furthermore, Dart's ecosystem is growing rapidly, with a vibrant community and a wide range of available libraries and tools, making it attractive for developers.</p>"
-  },
-  {
-    "name": "AWS Console Recorder",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "<p><strong><a href=\"https://chrome.google.com/webstore/detail/console-recorder-for-aws/ganlhgooidfbijjidcpkeaohjnkeicba\"/></strong></p>"
-  },
-  {
-    "name": "Oracle RDBMS",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "<p>Oracle’s licensing model can be complex and costly. It often involves charges based on the number of processors, users, or databases. Licensing fees can be high, especially for enterprise editions with advanced features.</p>"
-  },
-  {
-    "name": "Architecture Unit Tests",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong>https://github.com/TNG/ArchUnitNET</strong> https://rostermonster.atlassian.net/browse/EB-283</p>"
-  },
-  {
-    "name": "OpenAPI",
-    "ring": "trial",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "<p><strong>OpenAPI simplifies the process of designing, documenting, and interacting with RESTful APIs, making it easier for developers to build, consume, and manage APIs. https://openapi-generator.tech/</strong></p>"
-  },
-  {
-    "name" : "COTS Data Conversion Tools",
-    "ring" : "assess",
-    "quadrant" : "tools",
-    "isNew" : "TRUE",
-    "description" : "https://flatfile.com/platform/use-cases/data-conversion/, https://www.smartsheet.com/"  
-  },
-  {
-    "name" : "Server Side TypeScript",
-    "ring" : "trial",
-    "quadrant" : "languages & frameworks",
-    "isNew" : "TRUE",
-    "description" : "Using TypeScript on the server side can greatly enhance the development experience, improve code quality, and ensure that your backend applications are robust, maintainable, and scalable. https://www.typescriptlang.org/"  
-  },
-  {
-    "name" : "Expand Contract Pattern",
-    "ring" : "trial",
-    "quadrant" : "techniques",
-    "isNew" : "TRUE",
-    "description" : "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. https://github.com/xataio/pgroll, https://github.com/fabianlindfors/reshape https://rostermonster.atlassian.net/browse/EB-284"  
-  },	
-  {
-		"name": "AWS Gateway API v2 (WebSockets)",
-		"ring": "trial",
-		"quadrant": "platforms",
-		"isNew": "FALSE",
-		"description": "Amazon API Gateway v2 WebSockets allows you to create and manage WebSocket APIs, which enable bidirectional communication between clients and servers.  This will be used to replace the current RosterApps Payroll communication method between browser and server. https://rostermonster.atlassian.net/browse/EB-198"
-	},
-	{
-		"name": "AWS SNS",
-		"ring": "trial",
-		"quadrant": "platforms",
-		"isNew": "FALSE",
-		"description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service provided by AWS. It enables the delivery of messages from publishers to subscribers using a variety of endpoints, such as email, SMS, HTTP/HTTPS, and AWS Lambda functions. This will be used to replace the current RosterApps Payroll communication method between server and browser."
-	},
-	{
-		"name": "AWS SQS",
-		"ring": "adopt",
-		"quadrant": "platforms",
-		"isNew": "FALSE",
-		"description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS. It allows you to decouple and scale microservices, distributed systems, and serverless applications by enabling communication between software components through message queues.  Currently being used with Push Notifications in Workbench but will also be used to replace the current RosterApps Payroll communication method between browser and server to reduce WebSocket connections."
-	},
-	{
-		"name": "AWS Fargate (ECS .NET)",
-		"ring": "trial",
-		"quadrant": "platforms",
-		"isNew": "FALSE",
-		"description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform. <a href=\"https://rostermonster.atlassian.net/browse/EB-247"
-	},
-	{
-		"name": ".NET 8 Upgrade",
-		"ring": "assess",
-		"quadrant": "platforms",
-		"isNew": "TRUE",
-		"description": ".NET 8 is the current Long-Term Support (LTS) version of the .NET platform."
-	},
-  {
-		"name": "WCF Web Services (SOAP)",
-		"ring": "hold",
-		"quadrant": "platforms",
-		"isNew": "FALSE",
-		"description": "WCF Web Services (SOAP) is a legacy technology and is no longer recommended for new development. We have achieved functional parity with our WebAPI (REST) services and should transition all customers to these instead."
-	},
-  {
-		"name": "Change Data Capture",
-		"ring": "adopt",
-		"quadrant": "techniques",
-		"isNew": "FALSE",
-		"description": "CDC helps track and record changes (inserts, updates, deletes) to data in real-time or near-real-time. This is useful for data synchronization, replication, analytics, and monitoring."
-	},
-  {
-		"name": "ProtoMaps",
-		"ring": "assess",
-		"quadrant": "tools",
-		"isNew": "FALSE",
-		"description": "PMTiles is a single-file archive format for tiled data. A PMTiles archive can be hosted on a commodity storage platform such as S3, and enables low-cost, zero-maintenance map applications that are \"serverless\" - free of a custom tile backend or third party provider.. https://github.com/protomaps/PMTiles https://arcos-protomaps-poc.s3.us-east-2.amazonaws.com/index.html"
-  },
-  {
-    "name": "Docker",
-		"ring": "adopt",
-		"quadrant": "tools",
-		"isNew": "FALSE",
-		"description": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly."
-  },
-  {
-    "name": "Amazon ElastiCache",
-		"ring": "adopt",
-		"quadrant": "platforms",
-		"isNew": "FALSE",
-		"description": "Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services. It allows for data retrieval from shared in-memory data store rather than individual local server memory."
-  },
-  {
-   "name": "pgroll",
-      "ring": "assess",
-      "quadrant": "tools",
-      "isNew": "TRUE",
-      "description": "pgroll is an open source command-line tool that offers safe and reversible schema migrations for PostgreSQL by serving multiple schema versions simultaneously. This is a tool being assessed for the Expand Contract Pattern initiative"
-  },
-  {
-    "name" : "Blue-Green Deployment",
-    "ring" : "assess",
-    "quadrant" : "techniques",
-    "isNew" : "TRUE",
-    "description" : "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks."  
-  }
+    {
+        "name": "Event Driven Architecture (Kafka)",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Event-driven architecture (EDA) is a design paradigm where the flow of information and decision-making is driven by the occurrence of events. In an EDA, services or components communicate and respond to events asynchronously, which promotes loose coupling and scalability. Apache Kafka serves as a robust backbone for implementing event-driven architecture, enabling real-time, scalable, and loosely-coupled communication between services through event streams."
+    },
+    {
+        "name": "GraalVM",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "GraalVM provides a versatile and high-performance runtime environment that supports multiple programming languages and execution modes. Its advanced features for native compilation, polyglot capabilities, and performance optimization make it suitable for a wide range of modern application requirements."
+    },
+    {
+        "name": "Microcontainers (micronaut,quarkus)",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Both Micronaut and Quarkus are modern frameworks that cater to the needs of developing efficient, scalable, and cloud-native Java applications."
+    },
+    {
+        "name": "AWS Lambda",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "AWS Lambda provides a flexible, scalable, and cost-efficient way to run code in response to events, making it a powerful tool for building and managing serverless applications and services."
+    },
+    {
+        "name": "AWS SAM",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "TRUE",
+        "description": "<p>The <strong><a href=\"https://aws.amazon.com/serverless/sam/\">AWS Serverless Application Model (SAM)</a></strong> is an open-source framework for building serverless applications on the AWS Cloud infrastructure. Previously we blipped <a href=\"/radar/tools/serverless-framework\">Serverless Framework</a> as a popular framework for deploying serverless services on various cloud providers, primarily <a href=\"/radar/platforms/aws-lambda\">AWS Lambda</a>-based services. AWS SAM has gained popularity in recent times as the framework has come a long way from its early days. Our teams have found it very easy to set up, and they also use it for testing and debugging AWS Lambda-based services, including local executions of Lambdas for development.</p>"
+    },
+    {
+        "name": "Unified Cloud Testing (Mabl)",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Mabl provides a robust platform for automated testing with a focus on web applications. While it is not specifically a unit testing tool, it can complement unit tests by offering end-to-end and visual testing capabilities, enhancing overall test coverage and quality assurance."
+    },
+    {
+        "name": "pgvector",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "<p>With the rise of Generative AI-powered applications, we see a pattern of storing and efficiently searching <a href=\"https://www.featureform.com/post/the-definitive-guide-to-embeddings\">embeddings</a> vectors for similarities. <strong><a href=\"https://github.com/pgvector/pgvector\">pgvector</a></strong> is an open-source vector similarity search extension for PostgreSQL. We quite like it because it enables us to search the embeddings in PostgreSQL without moving the data to another store just for similarity search. Although there are several specialized <a href=\"https://github.com/currentslab/awesome-vector-search\">vector search engines</a>, we want you to assess pgvector.</p>"
+    },
+    {
+        "name": "Mermaid",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "<p><a href=\"https://mermaid.js.org/\"><strong>Mermaid</strong></a> lets you generate diagrams from a Markdown-like markup language. Since we last featured it in the Radar, Mermaid has added support for many more diagrams and <a href=\"https://mermaid.js.org/ecosystem/integrations.html\">integrations</a> with source code repositories, IDEs and knowledge management tools. Notably, it's supported natively in popular source code repositories such as GitHub and GitLab, enabling the embedding of and easy updates to Mermaid diagrams in the middle of Markdown documentation. Many of our teams gravitate toward Mermaid as their diagram-as-code tool due to its ease of use, multitude of integrations and wide variety of supported diagram types that keep growing.</p>"
+    },
+    {
+        "name": "GitHub Copilot",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "<p><strong><a href=\"https://github.com/features/copilot\">GitHub Copilot</a></strong> is used by many of our teams to help them write code faster. Overall, most of our developers find it very useful and would be cross if we took it away from them. We've been collating and sharing many of our experiences with Copilot through <a href=\"https://martinfowler.com/articles/exploring-gen-ai.html\">a series on Generative AI</a> and <a href=\"https://www.thoughtworks.com/insights/blog/generative-ai/getting-started-with-github-copilot\">a guide on getting started with Copilot</a>. Note that GitHub Copilot can be used with any codebase, not just codebases hosted on GitHub.</p>\n\n<p>We're also excited that Copilot's chat feature from the <a href=\"https://github.com/features/preview/copilot-x\">Copilot X roadmap</a> has become more widely available since we last featured it in the Radar. It is a powerful addition to Copilot's in-line assistance feature. The availability of a chat interface inside the IDE improves the discoverability of commonly searched information, and integration with the open editor context makes it easy to explore errors or ask the chat to assist with tasks related to the code in focus.</p>"
+    },
+    {
+        "name": "Tabnine",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "<p><strong><a href=\"https://www.tabnine.com/\">Tabnine</a></strong> is a contender in the currently busy space of coding assistants. It provides in-line code completion suggestions and a chat directly in the IDE. Similar to <a href=\"/radar/tools/github-copilot\">GitHub Copilot</a>, Tabnine has been around since before the current hype cycle and is therefore one of the more mature products in the space. Unlike Copilot, it uses a model that is only trained on permissively licensed code and offers a version to self-host for organizations that worry about sending their code snippets to a third-party service. Tabnine is available as a limited free version as well as a paid version, which has more comprehensive suggestions and also offers a mode with a local (albeit less powerful) model that you can use without internet connection.</p>"
+    },
+    {
+        "name": "Spring Modulith",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "TRUE",
+        "description": "<p>Although we were early advocates for <a href=\"/radar/techniques/microservices\">microservices</a> and have seen the pattern used successfully on myriad systems, we've also seen microservices misapplied and abused, often as the result of <a href=\"/radar/techniques/microservice-envy\">microservice envy</a>. Rather than start a TRUE system with a collection of separately deployed processes, it's often advisable to start with a well-factored monolith and only break out separately deployable units when the application reaches a scale where the benefits of microservices outweigh the additional complexity inherent in distributed systems. Recently we've seen a resurgence of interest in this approach and a more detailed definition of what, exactly, constitutes a well-factored monolith. <strong><a href=\"https://spring.io/projects/spring-modulith\">Spring Modulith</a></strong> is a framework that helps you structure your code in a way that makes it easier to break out microservices when the time is right. It provides a way to modularize your code so that the logical concepts of domains and bounded context are aligned with the physical concepts of files and package structure. This alignment makes it easier to refactor the monolith when necessary and to test domains in isolation. Spring Modulith provides an in-process eventing mechanism that helps further decouple modules within a single application. Best of all, it integrates with <a href='https://www.archunit.org'>ArchUnit</a> and <a href='https://github.com/xmolecules/jmolecules'>jmolecules</a> to automate verification of its domain-driven design rules.</p>"
+    },
+    {
+        "name": "Playwright",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "<p>With <strong><a href=\"https://playwright.dev/\">Playwright</a></strong> you can write end-to-end tests that run in Chrome, Firefox and WebKit. By using the Chrome Devtools Protocol (CDP) Playwright can offer TRUE features and eliminate many of the issues seen with WebDriver. Chromium-based browsers implement CDP directly. To support Firefox and Webkit, though, the Playwright team has to submit patches to these browsers, which may sometimes limit the framework.</p>\n\n<p>Playwright’s many features include: Built-in auto-waits, which result in tests that are more reliable and easier to understand; browser contexts, which let you test that persisting sessions across tabs work properly; and the ability to simulate notifications, geolocation and dark mode settings. Our teams are impressed with the stability Playwright brings to the test suite and like that they get feedback more quickly by running tests in parallel. Other features that set Playwright apart include better support for lazy loading and tracing. Although Playwright has some limitations — component support is currently experimental, for example — our teams consider it the go-to test framework and in some cases are migrating away from <a href=\"/radar/tools/cypress\">Cypress</a> and <a href=\"/radar/languages & frameworks/puppeteer\">Puppeteer</a>.</p>"
+    },
+    {
+        "name": "LangChain",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "<p><strong><a href=\"https://github.com/hwchase17/langchain\">LangChain</a></strong> is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, <a href=\"https://python.langchain.com/docs/modules/agents/\">agents</a> and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing <a href=\"/radar/techniques/retrieval-augmented-generation-rag\">Retrieval-Augmented Generation</a> applications and the <a href=\"/radar/techniques/react-prompting\">ReAct prompting</a> pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages & frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p>"
+    },
+    {
+        "name": "Retrieval-Augmented Generation (RAG)",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "<p><strong><a href=\"https://arxiv.org/abs/2005.11401v4\">Retrieval-Augmented Generation (RAG)</a></strong> is a technique to combine pretrained parametric and nonparametric memory for language generation. It enables you to augment the existing knowledge of pretrained LLMs with the private and contextual knowledge of your domain or industry. With RAG, you first retrieve a set of relevant documents from the nonparametric memory (usually via a similarity search from a vector data store) and then use the parametric memory of LLMs to generate output that is consistent with the retrieved documents. We find RAG to be an effective technique for a variety of knowledge intensive NLP tasks — including question answering, summarization and story generation.</p>"
+    },
+    {
+        "name": "AWS Step Functions - (Workflow Engine)",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "AWS Step Functions is a powerful tool for orchestrating complex workflows, simplifying the coordination of tasks, and improving the reliability and maintainability of distributed applications."
+    },
+    {
+        "name": "Kotlin with Spring",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "TRUE",
+        "description": "<p>Five years ago we moved <a href=\"/radar/languages & frameworks/kotlin\">Kotlin</a> into the adopt ring, and today many of our teams report that Kotlin is not only their default choice on the JVM but that it has displaced Java almost completely in the software they write. At the same time, <a href=\"/radar/techniques/microservice-envy\">microservice envy</a> appears to be fading — we’ve noticed people starting to explore architectures with larger deployable units, using frameworks like <a href=\"/radar/languages & frameworks/spring-modulith\">Spring Modulith</a> among others. We're aware of many good Kotlin-native frameworks and have mentioned some of them previously; however, in some cases, the maturity and feature-richness of the Spring framework is a real asset, and we've been using <strong>Kotlin with Spring</strong> successfully, usually with no or only smaller issues.</p>"
+    },
+    {
+        "name": "Kafka Connect",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Kafka Connect simplifies the integration of Kafka with external systems, making it easier to build data pipelines and stream data between various sources and sinks with minimal custom code. <a href='https://rostermonster.atlassian.net/browse/EB-202'>EB-202</a>"
+    },
+    {
+        "name": "Apache Flink",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Apache Flink is a powerful framework for real-time data processing, providing capabilities for both stream and batch processing. Its advanced features for state management, fault tolerance, and time handling make it a suitable choice for a wide range of real-time data processing and analytics applications."
+    },
+    {
+        "name": "Java Development Kit v 21",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "JDK 21 brings significant improvements in concurrency, pattern matching, and native code interaction, along with enhancements to existing features and APIs. These changes aim to make Java development more efficient, expressive, and robust."
+    },
+    {
+        "name": "RDS Proxy",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Amazon RDS Proxy is a fully managed, highly available database proxy service for Amazon RDS and Amazon Aurora. It provides several benefits that can enhance the performance, scalability, and security of your database applications. <a href='https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html'>RDS Proxy</a> <a href='https://rostermonster.atlassian.net/browse/EB-218'>EB-218</a>"
+    },
+    {
+        "name": "FinOps",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Cloud-based FinOps (Financial Operations) tools are designed to help organizations manage, optimize, and control their cloud spending.  Examples include CloudZero, CloudHealth"
+    },
+    {
+        "name": "Cloud Based IDEs",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Remote cloud-based Integrated Development Environments (IDEs) are platforms that allow developers to write, test, and debug code entirely through a web browser, without needing to install any software locally.  Examples include CodeSpaces, Gitpod"
+    },
+    {
+        "name": "ESRI - ArcGIS",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "The flagship GIS platform from ESRI, providing comprehensive tools for mapping, spatial analysis, and geographic data management. ArcGIS comes in various versions, including desktop (ArcGIS Pro), server (ArcGIS Server), and cloud (ArcGIS Online). <a href=\"https://rostermonster.atlassian.net/browse/EB-285\">EB-285</a>"
+    },
+    {
+        "name": "LocalStack",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "LocalStack is valuable for developers working on cloud-based applications, as it streamlines development workflows, reduces costs, and allows for comprehensive testing in a local environment."
+    },
+    {
+        "name": "Dart",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "<p><strong><a href=\"https://dart.dev/\">Dart</a></strong> is a programming language developed by Google that supports building apps targeting multiple platforms, including web browsers, <a href=\"/radar/languages & frameworks/webassembly\">WebAssembly</a>, desktop and mobile apps. Its adoption has been driven by the dominance of <a href=\"/radar/languages & frameworks/flutter\">Flutter</a> — a popular, multi-platform UI toolkit powered by Dart — in the cross-platform native mobile app framework space. In response to community feedback, Dart has evolved since its initial versions and has added built-in <a href=\"https://dart.dev/null-safety\">sound null safety</a> in version three, in addition to a robust type system. Furthermore, Dart's ecosystem is growing rapidly, with a vibrant community and a wide range of available libraries and tools, making it attractive for developers.</p>"
+    },
+    {
+        "name": "AWS Console Recorder",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "<p><strong><a href=\"https://chrome.google.com/webstore/detail/console-recorder-for-aws/ganlhgooidfbijjidcpkeaohjnkeicba\"/></strong></p>"
+    },
+    {
+        "name": "Oracle RDBMS",
+        "ring": "hold",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "<p>Oracle’s licensing model can be complex and costly. It often involves charges based on the number of processors, users, or databases. Licensing fees can be high, especially for enterprise editions with advanced features.</p>"
+    },
+    {
+        "name": "Architecture Unit Tests",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong><a href='https://github.com/TNG/ArchUnitNET'>ArchUnitNET</a></strong> <a href='https://rostermonster.atlassian.net/browse/EB-283'>EB-283</a></p>"
+    },
+    {
+        "name": "OpenAPI",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "<p><strong>OpenAPI simplifies the process of designing, documenting, and interacting with RESTful APIs, making it easier for developers to build, consume, and manage APIs. <a href='https://openapi-generator.tech'>OpenAPI Generator</a></strong></p>"
+    },
+    {
+        "name": "COTS Data Conversion Tools",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "<a href='https://flatfile.com/platform/use-cases/data-conversion/'>flatfile.com</a>, <a href='https://www.smartsheet.com/'>smartsheet.com</a>"
+    },
+    {
+        "name": "Server Side TypeScript",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "TRUE",
+        "description": "Using TypeScript on the server side can greatly enhance the development experience, improve code quality, and ensure that your backend applications are robust, maintainable, and scalable. <a href='https://www.typescriptlang.org'>TypeScript</a>"
+    },
+    {
+        "name": "Expand Contract Pattern",
+        "ring": "trial",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. <a href='https://github.com/xataio/pgroll'>pgroll</a>, <a href='https://github.com/fabianlindfors/reshape'>reshape</a> <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a>"
+    },
+    {
+        "name": "AWS Gateway API v2 (WebSockets)",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon API Gateway v2 WebSockets allows you to create and manage WebSocket APIs, which enable bidirectional communication between clients and servers.  This will be used to replace the current RosterApps Payroll communication method between browser and server. <a href='https://rostermonster.atlassian.net/browse/EB-198'>EB-198</a>"
+    },
+    {
+        "name": "AWS SNS",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service provided by AWS. It enables the delivery of messages from publishers to subscribers using a variety of endpoints, such as email, SMS, HTTP/HTTPS, and AWS Lambda functions. This will be used to replace the current RosterApps Payroll communication method between server and browser."
+    },
+    {
+        "name": "AWS SQS",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS. It allows you to decouple and scale microservices, distributed systems, and serverless applications by enabling communication between software components through message queues.  Currently being used with Push Notifications in Workbench but will also be used to replace the current RosterApps Payroll communication method between browser and server to reduce WebSocket connections."
+    },
+    {
+        "name": "AWS Fargate (ECS .NET)",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform. <a href='https://rostermonster.atlassian.net/browse/EB-247'>EB-247</a>"
+    },
+    {
+        "name": ".NET 8 Upgrade",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": ".NET 8 is the current Long-Term Support (LTS) version of the .NET platform."
+    },
+    {
+        "name": "WCF Web Services (SOAP)",
+        "ring": "hold",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "WCF Web Services (SOAP) is a legacy technology and is no longer recommended for new development. We have achieved functional parity with our WebAPI (REST) services and should transition all customers to these instead."
+    },
+    {
+        "name": "Change Data Capture",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "CDC helps track and record changes (inserts, updates, deletes) to data in real-time or near-real-time. This is useful for data synchronization, replication, analytics, and monitoring."
+    },
+    {
+        "name": "ProtoMaps",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "PMTiles is a single-file archive format for tiled data. A PMTiles archive can be hosted on a commodity storage platform such as S3, and enables low-cost, zero-maintenance map applications that are \"serverless\" - free of a custom tile backend or third party provider.. <a href='https://github.com/protomaps/PMTiles'>PMTiles</a> <a href='https://arcos-protomaps-poc.s3.us-east-2.amazonaws.com/index.html'>ProtoMaps</a>"
+    },
+    {
+        "name": "Docker",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly."
+    },
+    {
+        "name": "Amazon ElastiCache",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon ElastiCache is a fully managed in-memory data store and cache service by Amazon Web Services. It allows for data retrieval from shared in-memory data store rather than individual local server memory."
+    },
+    {
+        "name": "pgroll",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "pgroll is an open source command-line tool that offers safe and reversible schema migrations for PostgreSQL by serving multiple schema versions simultaneously. This is a tool being assessed for the Expand Contract Pattern initiative"
+    },
+    {
+        "name": "Blue-Green Deployment",
+        "ring": "assess",
+        "quadrant": "techniques",
+        "isNew": "TRUE",
+        "description": "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks." 
+    }
 ]
