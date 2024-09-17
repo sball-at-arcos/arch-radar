@@ -305,6 +305,6 @@
         "ring": "assess",
         "quadrant": "techniques",
         "isNew": "TRUE",
-        "description": "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks. <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a> <a href='https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-overview.html'>Amazon RDS Blue/Green Deployments for Aurora" 
+        "description": "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks. <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a> <a href='https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-overview.html'>Amazon RDS Blue/Green Deployments for Aurora</a>" 
     }
 ]
