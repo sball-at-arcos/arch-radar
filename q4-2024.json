@@ -190,7 +190,7 @@
     },
     {
         "name": "Architecture Unit Tests",
-        "ring": "assess",
+        "ring": "adopt",
         "quadrant": "tools",
         "isNew": "TRUE",
         "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong><a href='https://github.com/TNG/ArchUnitNET'>ArchUnitNET</a></strong> <a href='https://rostermonster.atlassian.net/browse/EB-283'>EB-283</a></p>"
@@ -225,7 +225,7 @@
     },
     {
         "name": "AWS Gateway API v2 (WebSockets)",
-        "ring": "trial",
+        "ring": "adopt",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Amazon API Gateway v2 WebSockets allows you to create and manage WebSocket APIs, which enable bidirectional communication between clients and servers.  This will be used to replace the current RosterApps Payroll communication method between browser and server. <a href='https://rostermonster.atlassian.net/browse/EB-198'>EB-198</a>"
@@ -246,14 +246,14 @@
     },
     {
         "name": "AWS Fargate (ECS .NET)",
-        "ring": "trial",
+        "ring": "adopt",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service provided by AWS. It simplifies the deployment, management, and scaling of containerized applications.  This will be used for running RosterApps scheduled jobs and possibly remove the need for an entire server.  While currently being used with the Java platform, this will be a new endeavor for the .NET platform. <a href='https://rostermonster.atlassian.net/browse/EB-247'>EB-247</a>"
     },
     {
         "name": ".NET 8 Upgrade",
-        "ring": "assess",
+        "ring": "adopt",
         "quadrant": "platforms",
         "isNew": "TRUE",
         "description": ".NET 8 is the current Long-Term Support (LTS) version of the .NET platform."
@@ -306,5 +306,12 @@
         "quadrant": "techniques",
         "isNew": "TRUE",
         "description": "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks. <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a> <a href='https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-overview.html'>Amazon RDS Blue/Green Deployments for Aurora</a>"
+    },
+    {
+        "name": "EventBridge Pipes",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
     }
 ]
