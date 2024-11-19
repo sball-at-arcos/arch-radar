@@ -318,7 +318,7 @@
         "ring": "trial",
         "quadrant": "tools",
         "isNew": "TRUE",
-        "title": "Ollama LLM Tool",
+        "name": "Ollama LLM Tool",
         "description": "Ollama is a tool designed to streamline the deployment and management of locally-hosted Large Language Models (LLMs). It simplifies usage by enabling on-device inference, privacy-focused model hosting, and integration capabilities for application development."
       }
 ]
