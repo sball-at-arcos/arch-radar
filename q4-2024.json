@@ -320,5 +320,12 @@
         "isNew": "TRUE",
         "name": "Ollama LLM Tool",
         "description": "Ollama is a tool designed to streamline the deployment and management of locally-hosted Large Language Models (LLMs). It simplifies usage by enabling on-device inference, privacy-focused model hosting, and integration capabilities for application development."
+      },
+      {
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "name": "DuckDB",
+        "description": "DuckDB is an in-process SQL analytics database designed for fast analytical queries on large datasets. It excels in scenarios requiring lightweight, high-performance analytics without the need for a separate database server."
       }
 ]
