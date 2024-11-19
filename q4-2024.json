@@ -88,7 +88,7 @@
         "ring": "assess",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
-        "description": "<p><strong><a href=\"https://github.com/hwchase17/langchain\">LangChain</a></strong> is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, <a href=\"https://python.langchain.com/docs/modules/agents/\">agents</a> and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing <a href=\"/radar/techniques/retrieval-augmented-generation-rag\">Retrieval-Augmented Generation</a> applications and the <a href=\"/radar/techniques/react-prompting\">ReAct prompting</a> pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages & frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p>"
+        "description": "LangChain is a framework for building applications with large language models (LLMs). To build practical LLM products, you need to combine them with user- or domain-specific data which wasn’t part of the training. LangChain fills this niche with features like prompt management, chaining, agents and document loaders. The benefit of components like prompt templates and document loaders is that they can speed up your time to market. Although it's a popular choice for implementing Retrieval-Augmented Generation applications and the ReAct prompting pattern, LangChain has been <a href=\"https://minimaxir.com/2023/07/langchain-problem/\">criticized</a> for being hard to use and overcomplicated. When choosing a tech stack for your LLM application, you may want to keep looking for similar frameworks — like <a href=\"/radar/languages & frameworks/semantic-kernel\">Semantic Kernel</a> — in this fast-evolving space.</p> See Research Task <a href='https://rostermonster.atlassian.net/browse/EB-337'>EB-337</a>"
     },
     {
         "name": "Retrieval-Augmented Generation (RAG)",
@@ -164,7 +164,7 @@
         "name": "LocalStack",
         "ring": "adopt",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "LocalStack is valuable for developers working on cloud-based applications, as it streamlines development workflows, reduces costs, and allows for comprehensive testing in a local environment."
     },
     {
@@ -190,7 +190,7 @@
     },
     {
         "name": "Architecture Unit Tests",
-        "ring": "adopt",
+        "ring": "trial",
         "quadrant": "tools",
         "isNew": "TRUE",
         "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong><a href='https://github.com/TNG/ArchUnitNET'>ArchUnitNET</a></strong> <a href='https://rostermonster.atlassian.net/browse/EB-283'>EB-283</a></p>"
@@ -309,9 +309,16 @@
     },
     {
         "name": "EventBridge Pipes",
-        "ring": "adopt",
+        "ring": "Archived",
         "quadrant": "platforms",
         "isNew": "TRUE",
         "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
-    }
+    },
+    {
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "title": "Ollama LLM Tool",
+        "description": "Ollama is a tool designed to streamline the deployment and management of locally-hosted Large Language Models (LLMs). It simplifies usage by enabling on-device inference, privacy-focused model hosting, and integration capabilities for application development."
+      }
 ]
