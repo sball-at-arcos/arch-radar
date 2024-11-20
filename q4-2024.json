@@ -327,5 +327,12 @@
         "isNew": "TRUE",
         "name": "DuckDB",
         "description": "DuckDB is an in-process SQL analytics database designed for fast analytical queries on large datasets. It excels in scenarios requiring lightweight, high-performance analytics without the need for a separate database server."
+      },
+      {
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "name": "SQ Query Wrangling Tool",
+        "description": "SQ is a lightweight SQL query wrangling tool designed to simplify ad-hoc data analysis and transformation workflows. It is particularly useful for quickly prototyping queries and performing data exploration with minimal setup."
       }
 ]
