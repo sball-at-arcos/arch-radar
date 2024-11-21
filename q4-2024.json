@@ -313,5 +313,12 @@
         "quadrant": "platforms",
         "isNew": "TRUE",
         "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
+    },
+    {
+        "quadrant": "languages & frameworks",
+        "ring": "assess",
+        "name": "ML.NET",
+        "isNew": "TRUE",
+        "description": "ML.NET is an open-source, cross-platform machine learning framework for .NET developers. It supports a variety of machine learning tasks, including classification, regression, clustering, anomaly detection, and recommendation systems. ML.NET integrates with other popular ML libraries like TensorFlow and ONNX, making it a versatile tool for incorporating machine learning into .NET applications."
     }
 ]
