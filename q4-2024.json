@@ -315,11 +315,11 @@
         "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
     },
     {
-        "name": "ML.NET",
-        "quadrant": "languages & frameworks",
-        "ring": "assess",
+        "name": "Microsoft.SemanticKernel",
+        "quadrant": "tools",
+        "ring": "trial",
         "isNew": "TRUE",
-        "description": "ML.NET is an open-source, cross-platform machine learning framework for .NET developers. It supports a variety of machine learning tasks, including classification, regression, clustering, anomaly detection, and recommendation systems. ML.NET integrates with other popular ML libraries like TensorFlow and ONNX, making it a versatile tool for incorporating machine learning into .NET applications."
+        "description": "Microsoft.SemanticKernel is an SDK for integrating AI Large Language Models (LLMs) with conventional programming. It supports prompt engineering, embeddings, summarization, intelligent planning, and integrates with multiple LLM services, enhancing applications with AI capabilities."
     },
     {
         "ring": "trial",
