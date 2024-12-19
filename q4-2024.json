@@ -315,24 +315,31 @@
         "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
     },
     {
+        "name": "Microsoft.SemanticKernel",
+        "quadrant": "tools",
+        "ring": "trial",
+        "isNew": "TRUE",
+        "description": "Microsoft.SemanticKernel is an SDK for integrating AI Large Language Models (LLMs) with conventional programming. It supports prompt engineering, embeddings, summarization, intelligent planning, and integrates with multiple LLM services, enhancing applications with AI capabilities."
+    },
+    {
         "ring": "trial",
         "quadrant": "tools",
         "isNew": "TRUE",
         "name": "Ollama LLM Tool",
         "description": "Ollama is a tool designed to streamline the deployment and management of locally-hosted Large Language Models (LLMs). It simplifies usage by enabling on-device inference, privacy-focused model hosting, and integration capabilities for application development."
-      },
-      {
+    },
+    {
         "ring": "trial",
         "quadrant": "tools",
         "isNew": "TRUE",
         "name": "DuckDB",
         "description": "DuckDB is an in-process SQL analytics database designed for fast analytical queries on large datasets. It excels in scenarios requiring lightweight, high-performance analytics without the need for a separate database server."
-      },
-      {
+    },
+    {
         "ring": "assess",
         "quadrant": "tools",
         "isNew": "TRUE",
         "name": "SQ Query Wrangling Tool",
         "description": "SQ is a lightweight SQL query wrangling tool designed to simplify ad-hoc data analysis and transformation workflows. It is particularly useful for quickly prototyping queries and performing data exploration with minimal setup."
-      }
+    }
 ]
