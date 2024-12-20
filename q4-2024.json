@@ -341,5 +341,12 @@
         "isNew": "TRUE",
         "name": "SQ Query Wrangling Tool",
         "description": "SQ is a lightweight SQL query wrangling tool designed to simplify ad-hoc data analysis and transformation workflows. It is particularly useful for quickly prototyping queries and performing data exploration with minimal setup."
-    }
+    },
+    {
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": true,
+        "name": "AWS CodeArtifact",
+        "description": "A secure, scalable, and cost-effective artifact management service for software development. It can be used as a NuGet store to manage and share .NET packages, enabling us to break up the arcos_rosterapps_new mono-repo."
+      }
 ]
