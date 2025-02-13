@@ -348,5 +348,12 @@
         "isNew": true,
         "name": "AWS CodeArtifact",
         "description": "A secure, scalable, and cost-effective artifact management service for software development. It can be used as a NuGet store to manage and share .NET packages, enabling us to break up the arcos_rosterapps_new mono-repo."
-      }
+    },
+    {
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": true,
+        "name": "MassTransit",
+        "description": "<a href='https://masstransit.io/'>MassTransit</a> is a robust framework for building distributed applications using message-based communication in .NET"
+    }
 ]
