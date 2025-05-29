@@ -3,7 +3,7 @@
         "name": "Event Driven Architecture (Kafka)",
         "ring": "adopt",
         "quadrant": "techniques",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Event-driven architecture (EDA) is a design paradigm where the flow of information and decision-making is driven by the occurrence of events. In an EDA, services or components communicate and respond to events asynchronously, which promotes loose coupling and scalability. Apache Kafka serves as a robust backbone for implementing event-driven architecture, enabling real-time, scalable, and loosely-coupled communication between services through event streams."
     },
     {
@@ -31,21 +31,21 @@
         "name": "AWS SAM",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p>The <strong><a href=\"https://aws.amazon.com/serverless/sam/\">AWS Serverless Application Model (SAM)</a></strong> is an open-source framework for building serverless applications on the AWS Cloud infrastructure. Previously we blipped <a href=\"/radar/tools/serverless-framework\">Serverless Framework</a> as a popular framework for deploying serverless services on various cloud providers, primarily <a href=\"/radar/platforms/aws-lambda\">AWS Lambda</a>-based services. AWS SAM has gained popularity in recent times as the framework has come a long way from its early days. Our teams have found it very easy to set up, and they also use it for testing and debugging AWS Lambda-based services, including local executions of Lambdas for development.</p>"
     },
     {
         "name": "Unified Cloud Testing (Mabl)",
         "ring": "adopt",
         "quadrant": "techniques",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Mabl provides a robust platform for automated testing with a focus on web applications. While it is not specifically a unit testing tool, it can complement unit tests by offering end-to-end and visual testing capabilities, enhancing overall test coverage and quality assurance."
     },
     {
         "name": "pgvector",
         "ring": "assess",
         "quadrant": "platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p>With the rise of Generative AI-powered applications, we see a pattern of storing and efficiently searching <a href=\"https://www.featureform.com/post/the-definitive-guide-to-embeddings\">embeddings</a> vectors for similarities. <strong><a href=\"https://github.com/pgvector/pgvector\">pgvector</a></strong> is an open-source vector similarity search extension for PostgreSQL. We quite like it because it enables us to search the embeddings in PostgreSQL without moving the data to another store just for similarity search. Although there are several specialized <a href=\"https://github.com/currentslab/awesome-vector-search\">vector search engines</a>, we want you to assess pgvector.</p>"
     },
     {
@@ -66,14 +66,14 @@
         "name": "Tabnine",
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p><strong><a href=\"https://www.tabnine.com/\">Tabnine</a></strong> is a contender in the currently busy space of coding assistants. It provides in-line code completion suggestions and a chat directly in the IDE. Similar to <a href=\"/radar/tools/github-copilot\">GitHub Copilot</a>, Tabnine has been around since before the current hype cycle and is therefore one of the more mature products in the space. Unlike Copilot, it uses a model that is only trained on permissively licensed code and offers a version to self-host for organizations that worry about sending their code snippets to a third-party service. Tabnine is available as a limited free version as well as a paid version, which has more comprehensive suggestions and also offers a mode with a local (albeit less powerful) model that you can use without internet connection.</p>"
     },
     {
         "name": "Spring Modulith",
         "ring": "assess",
         "quadrant": "languages & frameworks",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p>Although we were early advocates for <a href=\"/radar/techniques/microservices\">microservices</a> and have seen the pattern used successfully on myriad systems, we've also seen microservices misapplied and abused, often as the result of <a href=\"/radar/techniques/microservice-envy\">microservice envy</a>. Rather than start a TRUE system with a collection of separately deployed processes, it's often advisable to start with a well-factored monolith and only break out separately deployable units when the application reaches a scale where the benefits of microservices outweigh the additional complexity inherent in distributed systems. Recently we've seen a resurgence of interest in this approach and a more detailed definition of what, exactly, constitutes a well-factored monolith. <strong><a href=\"https://spring.io/projects/spring-modulith\">Spring Modulith</a></strong> is a framework that helps you structure your code in a way that makes it easier to break out microservices when the time is right. It provides a way to modularize your code so that the logical concepts of domains and bounded context are aligned with the physical concepts of files and package structure. This alignment makes it easier to refactor the monolith when necessary and to test domains in isolation. Spring Modulith provides an in-process eventing mechanism that helps further decouple modules within a single application. Best of all, it integrates with <a href='https://www.archunit.org'>ArchUnit</a> and <a href='https://github.com/xmolecules/jmolecules'>jmolecules</a> to automate verification of its domain-driven design rules.</p>"
     },
     {
@@ -94,7 +94,7 @@
         "name": "Retrieval-Augmented Generation (RAG)",
         "ring": "assess",
         "quadrant": "techniques",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p><strong><a href=\"https://arxiv.org/abs/2005.11401v4\">Retrieval-Augmented Generation (RAG)</a></strong> is a technique to combine pretrained parametric and nonparametric memory for language generation. It enables you to augment the existing knowledge of pretrained LLMs with the private and contextual knowledge of your domain or industry. With RAG, you first retrieve a set of relevant documents from the nonparametric memory (usually via a similarity search from a vector data store) and then use the parametric memory of LLMs to generate output that is consistent with the retrieved documents. We find RAG to be an effective technique for a variety of knowledge intensive NLP tasks — including question answering, summarization and story generation.</p>"
     },
     {
@@ -108,7 +108,7 @@
         "name": "Kotlin with Spring",
         "ring": "trial",
         "quadrant": "languages & frameworks",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p>Five years ago we moved <a href=\"/radar/languages & frameworks/kotlin\">Kotlin</a> into the adopt ring, and today many of our teams report that Kotlin is not only their default choice on the JVM but that it has displaced Java almost completely in the software they write. At the same time, <a href=\"/radar/techniques/microservice-envy\">microservice envy</a> appears to be fading — we’ve noticed people starting to explore architectures with larger deployable units, using frameworks like <a href=\"/radar/languages & frameworks/spring-modulith\">Spring Modulith</a> among others. We're aware of many good Kotlin-native frameworks and have mentioned some of them previously; however, in some cases, the maturity and feature-richness of the Spring framework is a real asset, and we've been using <strong>Kotlin with Spring</strong> successfully, usually with no or only smaller issues.</p>"
     },
     {
@@ -136,14 +136,14 @@
         "name": "RDS Proxy",
         "ring": "trial",
         "quadrant": "platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Amazon RDS Proxy is a fully managed, highly available database proxy service for Amazon RDS and Amazon Aurora. It provides several benefits that can enhance the performance, scalability, and security of your database applications. <a href='https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html'>RDS Proxy</a> <a href='https://rostermonster.atlassian.net/browse/EB-218'>EB-218</a>"
     },
     {
         "name": "FinOps",
         "ring": "assess",
         "quadrant": "techniques",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Cloud-based FinOps (Financial Operations) tools are designed to help organizations manage, optimize, and control their cloud spending.  Examples include CloudZero, CloudHealth"
     },
     {
@@ -178,49 +178,49 @@
         "name": "AWS Console Recorder",
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p><strong><a href=\"https://chrome.google.com/webstore/detail/console-recorder-for-aws/ganlhgooidfbijjidcpkeaohjnkeicba\"/></strong></p>"
     },
     {
         "name": "Oracle RDBMS",
         "ring": "hold",
         "quadrant": "platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p>Oracle’s licensing model can be complex and costly. It often involves charges based on the number of processors, users, or databases. Licensing fees can be high, especially for enterprise editions with advanced features.</p>"
     },
     {
         "name": "Architecture Unit Tests",
         "ring": "trial",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p>Architectural unit tests are tests designed to verify that the components of a software system adhere to its defined architecture. These tests focus on ensuring that the architectural rules, constraints, and design patterns are correctly implemented and followed throughout the codebase.<strong><a href='https://github.com/TNG/ArchUnitNET'>ArchUnitNET</a></strong> <a href='https://rostermonster.atlassian.net/browse/EB-283'>EB-283</a></p>"
     },
     {
         "name": "OpenAPI",
         "ring": "trial",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<p><strong>OpenAPI simplifies the process of designing, documenting, and interacting with RESTful APIs, making it easier for developers to build, consume, and manage APIs. <a href='https://openapi-generator.tech'>OpenAPI Generator</a></strong></p>"
     },
     {
         "name": "COTS Data Conversion Tools",
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "<a href='https://flatfile.com/platform/use-cases/data-conversion/'>flatfile.com</a>, <a href='https://www.smartsheet.com/'>smartsheet.com</a>"
     },
     {
         "name": "Server Side TypeScript",
         "ring": "trial",
         "quadrant": "languages & frameworks",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Using TypeScript on the server side can greatly enhance the development experience, improve code quality, and ensure that your backend applications are robust, maintainable, and scalable. <a href='https://www.typescriptlang.org'>TypeScript</a>"
     },
     {
         "name": "Expand Contract Pattern",
         "ring": "trial",
         "quadrant": "techniques",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "The Contract Data Migration pattern provides a structured approach to managing data migrations, ensuring that data is accurately transformed and loaded while maintaining integrity and consistency across systems. <a href='https://github.com/xataio/pgroll'>pgroll</a>, <a href='https://github.com/fabianlindfors/reshape'>reshape</a> <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a>"
     },
     {
@@ -255,7 +255,7 @@
         "name": ".NET 8 Upgrade",
         "ring": "adopt",
         "quadrant": "platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": ".NET 8 is the current Long-Term Support (LTS) version of the .NET platform."
     },
     {
@@ -297,63 +297,70 @@
         "name": "pgroll",
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "pgroll is an open source command-line tool that offers safe and reversible schema migrations for PostgreSQL by serving multiple schema versions simultaneously. This is a tool being assessed for the Expand Contract Pattern initiative"
     },
     {
         "name": "Blue-Green Deployment",
         "ring": "assess",
         "quadrant": "techniques",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Blue-Green deployments is a technique used to achieve continuous delivery with ZDT. It uses 2 production environments (known as Blue and Green) to provide continuous no-outage releases and rollbacks. <a href='https://rostermonster.atlassian.net/browse/EB-284'>EB-284</a> <a href='https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-overview.html'>Amazon RDS Blue/Green Deployments for Aurora</a>"
     },
     {
         "name": "EventBridge Pipes",
         "ring": "Archived",
         "quadrant": "platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
     },
     {
         "name": "Microsoft.SemanticKernel",
         "quadrant": "tools",
         "ring": "trial",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Microsoft.SemanticKernel is an SDK for integrating AI Large Language Models (LLMs) with conventional programming. It supports prompt engineering, embeddings, summarization, intelligent planning, and integrates with multiple LLM services, enhancing applications with AI capabilities."
     },
     {
         "ring": "trial",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "name": "Ollama LLM Tool",
         "description": "Ollama is a tool designed to streamline the deployment and management of locally-hosted Large Language Models (LLMs). It simplifies usage by enabling on-device inference, privacy-focused model hosting, and integration capabilities for application development."
     },
     {
         "ring": "trial",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "name": "DuckDB",
         "description": "DuckDB is an in-process SQL analytics database designed for fast analytical queries on large datasets. It excels in scenarios requiring lightweight, high-performance analytics without the need for a separate database server."
     },
     {
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "name": "SQ Query Wrangling Tool",
         "description": "SQ is a lightweight SQL query wrangling tool designed to simplify ad-hoc data analysis and transformation workflows. It is particularly useful for quickly prototyping queries and performing data exploration with minimal setup."
     },
     {
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "name": "AWS CodeArtifact",
         "description": "A secure, scalable, and cost-effective artifact management service for software development. It can be used as a NuGet store to manage and share .NET packages, enabling us to break up the arcos_rosterapps_new mono-repo."
     },
     {
         "ring": "trial",
         "quadrant": "languages & frameworks",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "name": "MassTransit",
         "description": "<a href='https://masstransit.io/'>MassTransit</a> is a robust framework for building distributed applications using message-based communication in .NET"
+    },
+    {
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "TRUE",
+        "name": "Spring AI",
+        "description": "<a href='https://spring.io/projects/spring-ai'>Spring AI</a> is an application framework for AI engineering. Its goal is to apply to the AI domain Spring ecosystem design principles such as portability and modular design and promote using POJOs as the building blocks of an application to the AI domain"
     }
 ]
