@@ -225,7 +225,7 @@
     },
     {
         "name": "AWS Gateway API v2 (WebSockets)",
-        "ring": "adopt",
+        "ring": "Archived",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Amazon API Gateway v2 WebSockets allows you to create and manage WebSocket APIs, which enable bidirectional communication between clients and servers.  This will be used to replace the current RosterApps Payroll communication method between browser and server. <a href='https://rostermonster.atlassian.net/browse/EB-198'>EB-198</a>"
@@ -309,7 +309,7 @@
     },
     {
         "name": "EventBridge Pipes",
-        "ring": "Archived",
+        "ring": "adopt",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Amazon EventBridge Pipes is a feature of Amazon EventBridge that facilitates point-to-point integrations between event sources and targets. It simplifies the process of connecting these components by reducing the need for specialized integration code. First ticket to call for it's usage: <a href='https://rostermonster.atlassian.net/browse/CO-7412'>https://rostermonster.atlassian.net/browse/CO-7412</a>"
@@ -367,7 +367,7 @@
         "ring": "adopt",
         "quadrant": "tools",
         "isNew": "TRUE",
-        "name": "AppSync",
+        "name": "AppSync Events",
         "description": "AWS AppSync Events is a feature of AWS AppSync that enables real-time event-driven communication using WebSockets and HTTP protocols. It allows clients to send and receive events in a scalable and low-latency manner, making it ideal for building real-time applications like chat, collaboration tools, live dashboards, and IoT systems.  It will first be used by RosterApps for SignalR replacement in HA (<a href='https://rostermonster.atlassian.net/browse/CO-7412'>CO-7412</a>) and then for the new RosterApps Payroll communication method between browser and server (<a href='https://rostermonster.atlassian.net/browse/RAPD-15871'>RAPD-15871</a> and Lighthouse )."
     },
         {
@@ -376,5 +376,11 @@
         "isNew": "TRUE",
         "name": "MCP (Model Context Protocol)",
         "description": "<a href='https://modelcontextprotocol.io/introduction'>MCP</a> is a protocol designed to facilitate communication between different AI models and applications. It provides a standardized way to define and exchange context information, enabling more effective collaboration and integration between diverse AI systems."
+    }, {
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "name": "Textract",
+        "description": "<a href='https://aws.amazon.com/textract/'>Textract</a> is a service that automatically extracts text and data from scanned documents. It uses machine learning to read and process documents, making it easier to access and analyze the information they contain."
     }
 ]
