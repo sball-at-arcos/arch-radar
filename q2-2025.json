@@ -232,14 +232,14 @@
     },
     {
         "name": "AWS SNS",
-        "ring": "adopt",
+        "ring": "Archive",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service provided by AWS. It enables the delivery of messages from publishers to subscribers using a variety of endpoints, such as email, SMS, HTTP/HTTPS, and AWS Lambda functions. This will be used to replace the current RosterApps Payroll communication method between server and browser."
     },
     {
         "name": "AWS SQS",
-        "ring": "adopt",
+        "ring": "Archive",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS. It allows you to decouple and scale microservices, distributed systems, and serverless applications by enabling communication between software components through message queues.  Currently being used with Push Notifications in Workbench but will also be used to replace the current RosterApps Payroll communication method between browser and server to reduce WebSocket connections."
@@ -363,24 +363,32 @@
         "name": "Spring AI",
         "description": "<a href='https://spring.io/projects/spring-ai'>Spring AI</a> is an application framework for AI engineering. Its goal is to apply to the AI domain Spring ecosystem design principles such as portability and modular design and promote using POJOs as the building blocks of an application to the AI domain"
     },
-        {
+    {
         "ring": "adopt",
-        "quadrant": "tools",
+        "quadrant": "platforms",
         "isNew": "TRUE",
         "name": "AppSync Events",
         "description": "AWS AppSync Events is a feature of AWS AppSync that enables real-time event-driven communication using WebSockets and HTTP protocols. It allows clients to send and receive events in a scalable and low-latency manner, making it ideal for building real-time applications like chat, collaboration tools, live dashboards, and IoT systems.  It will first be used by RosterApps for SignalR replacement in HA (<a href='https://rostermonster.atlassian.net/browse/CO-7412'>CO-7412</a>) and then for the new RosterApps Payroll communication method between browser and server (<a href='https://rostermonster.atlassian.net/browse/RAPD-15871'>RAPD-15871</a> and Lighthouse )."
     },
-        {
+    {
         "ring": "trial",
-        "quadrant": "tools",
+        "quadrant": "languages & frameworks",
         "isNew": "TRUE",
         "name": "MCP (Model Context Protocol)",
         "description": "<a href='https://modelcontextprotocol.io/introduction'>MCP</a> is a protocol designed to facilitate communication between different AI models and applications. It provides a standardized way to define and exchange context information, enabling more effective collaboration and integration between diverse AI systems."
-    }, {
+    }, 
+    {
         "ring": "assess",
-        "quadrant": "tools",
+        "quadrant": "tool",
         "isNew": "TRUE",
-        "name": "Textract",
+        "name": "AWS Textract",
         "description": "<a href='https://aws.amazon.com/textract/'>Textract</a> is a service that automatically extracts text and data from scanned documents. It uses machine learning to read and process documents, making it easier to access and analyze the information they contain."
+    }, 
+    {
+        "ring": "assess",
+        "quadrant": "lang",
+        "isNew": "TRUE",
+        "name": "LangGraph",
+        "description": "<a href='https://www.langchain.com/langgraph'>LangGraph</a> is an open-source framework for building stateful, multi-agent applications on top of language models. It extends LangChain by enabling graph-based orchestration with support for loops, conditionals, and memory. LangGraph is ideal for LLM workflows requiring more deterministic control flow and agent coordination, such as planning, debate agents, or tool-calling pipelines. It is still early in maturity and best suited for teams already working within the LangChain ecosystem."
     }
 ]
