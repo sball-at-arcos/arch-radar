@@ -379,14 +379,14 @@
     }, 
     {
         "ring": "assess",
-        "quadrant": "tool",
+        "quadrant": "tools",
         "isNew": "TRUE",
         "name": "AWS Textract",
         "description": "<a href='https://aws.amazon.com/textract/'>Textract</a> is a service that automatically extracts text and data from scanned documents. It uses machine learning to read and process documents, making it easier to access and analyze the information they contain."
     }, 
     {
         "ring": "assess",
-        "quadrant": "lang",
+        "quadrant": "languages & frameworks",
         "isNew": "TRUE",
         "name": "LangGraph",
         "description": "<a href='https://www.langchain.com/langgraph'>LangGraph</a> is an open-source framework for building stateful, multi-agent applications on top of language models. It extends LangChain by enabling graph-based orchestration with support for loops, conditionals, and memory. LangGraph is ideal for LLM workflows requiring more deterministic control flow and agent coordination, such as planning, debate agents, or tool-calling pipelines. It is still early in maturity and best suited for teams already working within the LangChain ecosystem."
