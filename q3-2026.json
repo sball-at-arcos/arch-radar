@@ -407,7 +407,7 @@
   },
   {
     "name": "LangGraph",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Graph-based orchestration for stateful multi-agent LLM apps."
@@ -453,5 +453,26 @@
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Remote IDEs (CodeSpaces, Gitpod)."
+  },
+  {
+    "name": "Claude Code Skills",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Prompt-based capabilities for <a href='https://code.claude.com/docs/en/skills'>Claude Code</a> that load structured instructions into context via slash commands. Skills are markdown files with YAML frontmatter that encode repeatable workflows — code review, migrations, testing patterns — as directive instructions Claude follows step-by-step. Custom skills live in .claude/skills/ at project or user scope."
+  },
+  {
+    "name": "Claude Code Plugins",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Distributable extension packages for Claude Code that bundle skills, hooks, MCP servers, and configuration into installable units. The <a href='https://github.com/obra/superpowers'>Superpowers</a> plugin provides structured software development methodologies (TDD, debugging, brainstorming, code review) and is deployed across ARCOS engineering. Plugins are available via the Anthropic marketplace and npm."
+  },
+  {
+    "name": "turbopuffer",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Serverless vector and full-text search database built on object storage. Handles 2.5T+ documents at 10x lower cost than traditional vector databases by leveraging S3-native architecture with NVMe caching. Used by Cursor, Notion, and Linear. Supports hybrid vector + BM25 search, making it a candidate for RAG and semantic search workloads. <a href='https://turbopuffer.com/'>turbopuffer</a>"
   }
 ]
