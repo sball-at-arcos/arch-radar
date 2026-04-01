@@ -36,7 +36,7 @@
   },
   {
     "name": "Expand Contract Pattern",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "Structured data migration pattern (pgroll, reshape). EB-284."
@@ -141,14 +141,14 @@
   },
   {
     "name": "Kafka Connect",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Integration of Kafka with external systems. EB-202."
   },
   {
     "name": "RDS Proxy",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Managed database proxy for RDS/Aurora. EB-218."
@@ -159,13 +159,6 @@
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Real-time stream and batch processing framework."
-  },
-  {
-    "name": "Cloud Based IDEs",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Remote IDEs (CodeSpaces, Gitpod)."
   },
   {
     "name": "pgvector",
@@ -260,14 +253,14 @@
   },
   {
     "name": "DuckDB",
-    "ring": "trial",
+    "ring": "assess",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "In-process SQL analytics database."
   },
   {
     "name": "Ollama LLM Tool",
-    "ring": "trial",
+    "ring": "assess",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Local LLM deployment and management."
@@ -292,13 +285,6 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Artifact management, potential NuGet store for mono-repo breakup."
-  },
-  {
-    "name": "AWS Console Recorder",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Chrome extension for recording AWS console actions."
   },
   {
     "name": "AWS Textract",
@@ -336,13 +322,6 @@
     "description": "Lightweight SQL query wrangling for ad-hoc analysis."
   },
   {
-    "name": "Tabnine",
-    "ring": "assess",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Coding assistant, permissively-licensed model."
-  },
-  {
     "name": "pgroll",
     "ring": "assess",
     "quadrant": "tools",
@@ -378,29 +357,22 @@
     "description": "<a href=\"https://modelcontextprotocol.io/introduction\">MCP</a> is now a core integration pattern at ARCOS. The MCP Server is a production outcome in Iteration 5, moving from POC to production-hardened multi-tenant deployment with CI/CD, observability, and resilience patterns. MCP servers are in active use for ARCOS workforce data, Lighthouse, Atlassian, Slack, and Microsoft 365 integrations."
   },
   {
-    "name": "Dart",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Google language powering Flutter."
-  },
-  {
     "name": "Java Development Kit v 21",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "JDK 21 with concurrency, pattern matching improvements."
   },
   {
     "name": "Kotlin with Spring",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Kotlin on JVM with Spring framework maturity."
   },
   {
     "name": "MassTransit",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Message-based distributed apps in .NET."
@@ -428,7 +400,7 @@
   },
   {
     "name": "LangChain",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Framework for LLM applications. See EB-337."
@@ -453,5 +425,33 @@
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Framework for well-factored monoliths."
+  },
+  {
+    "name": "Dart",
+    "ring": "Archived",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Google language powering Flutter."
+  },
+  {
+    "name": "AWS Console Recorder",
+    "ring": "Archived",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Chrome extension for recording AWS console actions."
+  },
+  {
+    "name": "Tabnine",
+    "ring": "Archived",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Coding assistant, permissively-licensed model."
+  },
+  {
+    "name": "Cloud Based IDEs",
+    "ring": "Archived",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Remote IDEs (CodeSpaces, Gitpod)."
   }
 ]
