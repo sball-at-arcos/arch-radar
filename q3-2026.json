@@ -1,0 +1,478 @@
+[
+  {
+    "name": "Agentic Coding Practices",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "A framework for engineering teams using AI coding tools at multiple autonomy levels (inner/middle/outer loop, based on Steve Yegge's model). Covers context rot, reward hijacking, and manager coaching guidance. Published internally as <a href='https://rostermonster.atlassian.net/wiki/spaces/AE/pages/5652742196'>Agentic Coding Best Practices</a> with skill levels 1-4 for the Claude Code rollout."
+  },
+  {
+    "name": "Change Data Capture",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Track real-time data changes for sync and analytics."
+  },
+  {
+    "name": "Event Driven Architecture (Kafka)",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Event-driven architecture (EDA) using Apache Kafka."
+  },
+  {
+    "name": "GeoJSON",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "RFC 7946 standard for encoding geographic data structures. Selected as the primary data format for ARCOS location services API \u2014 consumed natively by Mapbox, Leaflet, and OpenLayers with zero conversion. Used for both REST responses and SSE stream payloads."
+  },
+  {
+    "name": "Unified Cloud Testing (Mabl)",
+    "ring": "Archived",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Mabl automated testing platform."
+  },
+  {
+    "name": "Expand Contract Pattern",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Structured data migration pattern (pgroll, reshape). EB-284."
+  },
+  {
+    "name": "Server-Sent Events (SSE)",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Unidirectional server-to-client streaming over HTTP, selected for next-generation location services real-time updates. SSE provides auto-reconnection, firewall-friendly HTTPS transport, and simpler architecture than WebSockets for the dispatcher use case where clients only receive updates."
+  },
+  {
+    "name": "Blue-Green Deployment",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Zero-downtime deployment using parallel environments. EB-284."
+  },
+  {
+    "name": "FinOps",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Cloud financial operations (CloudZero, CloudHealth)."
+  },
+  {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Combine pretrained LLMs with domain knowledge retrieval."
+  },
+  {
+    "name": ".NET 8 Upgrade",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": ".NET 8 LTS platform."
+  },
+  {
+    "name": "AWS Cognito",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Amazon Cognito is the target identity platform for ARCOS/Lighthouse authentication. A two-pronged migration strategy is underway: Prong 1 adds SSO via external SAML 2.0 IdPs (Microsoft Entra ID, Okta) to the legacy system; Prong 2 consolidates duplicate multi-tenant user accounts into Cognito. Duke is the first real customer being onboarded via SSO in Iteration 5."
+  },
+  {
+    "name": "AWS Fargate (ECS .NET)",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Managed container orchestration for .NET. EB-247."
+  },
+  {
+    "name": "AWS Lambda",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Serverless compute."
+  },
+  {
+    "name": "AWS Verified Permissions (AVP)",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "AWS Verified Permissions provides externalized authorization using Cedar policy language. Being deployed in Iteration 5 for RBAC, establishing Crew Leader / Crew Member role boundaries as the foundation for location hierarchy and resource-level access control in Lighthouse."
+  },
+  {
+    "name": "Amazon ElastiCache",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Managed in-memory data store."
+  },
+  {
+    "name": "AppSync Events",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS real-time event-driven WebSocket communication. CO-7412, RAPD-15871."
+  },
+  {
+    "name": "EventBridge Pipes",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Point-to-point event integrations. CO-7412."
+  },
+  {
+    "name": "Mapbox",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Modern mapping platform selected to replace Esri for next-generation ARCOS location services. Architecture uses Mapbox Datasets API for real-time crew locations, Tilesets API for static infrastructure layers, and Mapbox GL JS for web rendering. SSE-based real-time updates with GeoJSON data format. <a href='https://docs.mapbox.com/'>Mapbox Documentation</a>"
+  },
+  {
+    "name": "AWS Athena",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Serverless query service for S3 data lakes, used as the async export engine in the Reporting API architecture. Queries tenant-partitioned Parquet files on demand with pay-per-query pricing. Complements DynamoDB's hot serving layer for large-scale and ad-hoc report exports."
+  },
+  {
+    "name": "Kafka Connect",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Integration of Kafka with external systems. EB-202."
+  },
+  {
+    "name": "RDS Proxy",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Managed database proxy for RDS/Aurora. EB-218."
+  },
+  {
+    "name": "Apache Flink",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Real-time stream and batch processing framework."
+  },
+  {
+    "name": "pgvector",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Vector similarity search extension for PostgreSQL."
+  },
+  {
+    "name": "ESRI - ArcGIS",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Esri ArcGIS is being superseded by Mapbox for next-generation location services. The high cost and complex licensing of Esri, combined with Mapbox's developer-friendly APIs and modern vector tile rendering, make Mapbox the preferred path forward. <a href=\"https://rostermonster.atlassian.net/browse/EB-285\">EB-285</a>"
+  },
+  {
+    "name": "Oracle RDBMS",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Complex and costly licensing model."
+  },
+  {
+    "name": "WCF Web Services (SOAP)",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Legacy, replaced by WebAPI REST."
+  },
+  {
+    "name": "Claude Code",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Anthropic's agentic coding CLI tool, replacing GitHub Copilot as the primary AI coding assistant across ARCOS Engineering. Claude Code supports unattended sessions, MCP server integrations, and is deployed on the Teams plan. Daily usage is expected of all engineers. Telemetry is being configured via OpenTelemetry with Splunk as the audit target."
+  },
+  {
+    "name": "CodeRabbit",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-powered code review tool integrated into the PR workflow via Bitbucket. Configured for security-focused reviews. Actively measured through DX platform metrics for review cycle time reduction and rule coverage."
+  },
+  {
+    "name": "DX Platform",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "<a href='https://getdx.com'>DX</a> is the developer experience measurement platform used to track engineering metrics including DORA, AI tool adoption, developer satisfaction, and agentic coding usage across Codex, Copilot, Claude Code, Amazon Q, and CodeRabbit."
+  },
+  {
+    "name": "Docker",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Container platform for app packaging and delivery."
+  },
+  {
+    "name": "LocalStack",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Local AWS cloud emulator for dev/test."
+  },
+  {
+    "name": "Mermaid",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Diagram generation from Markdown-like markup."
+  },
+  {
+    "name": "OpenAI Codex",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "OpenAI's agentic coding tool, available to ARCOS engineers via enterprise license. Positioned for well-defined, day-to-day coding tasks alongside Claude Code for complex and cross-cutting work. Part of a multi-tool AI coding strategy."
+  },
+  {
+    "name": "k6",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "JavaScript-based load testing tool selected over Gatling via ADR for its superior observability pipeline alignment (NFR #6) and native Datadog integration. Positioned as the standard performance test tool for ARCOS engineering."
+  },
+  {
+    "name": "Architecture Unit Tests",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Verify architecture rules in code (ArchUnitNET). EB-283."
+  },
+  {
+    "name": "DuckDB",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "In-process SQL analytics database."
+  },
+  {
+    "name": "Ollama LLM Tool",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Local LLM deployment and management."
+  },
+  {
+    "name": "OpenAPI",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "RESTful API design and documentation standard."
+  },
+  {
+    "name": "OpenTelemetry",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Vendor-neutral observability framework being adopted for Claude Code telemetry and audit data collection. Target pipeline routes instrumentation data to Splunk for enterprise audit and compliance reporting."
+  },
+  {
+    "name": "AWS CodeArtifact",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Artifact management, potential NuGet store for mono-repo breakup."
+  },
+  {
+    "name": "AWS Textract",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "ML-based document text/data extraction."
+  },
+  {
+    "name": "COTS Data Conversion Tools",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "flatfile.com, smartsheet.com."
+  },
+  {
+    "name": "GraalVM",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Versatile high-performance runtime, native compilation, polyglot."
+  },
+  {
+    "name": "ProtoMaps",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "PMTiles single-file archive for serverless map tiles."
+  },
+  {
+    "name": "SQ Query Wrangling Tool",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Lightweight SQL query wrangling for ad-hoc analysis."
+  },
+  {
+    "name": "pgroll",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Safe reversible PostgreSQL schema migrations."
+  },
+  {
+    "name": "GitHub Copilot",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "GitHub Copilot is being deprecated across ARCOS Engineering in favor of Claude Code. Copilot access is being deactivated and is no longer recommended for new adoption. Teams should transition to Claude Code as their primary AI coding assistant."
+  },
+  {
+    "name": "AWS SAM",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "AWS Serverless Application Model framework."
+  },
+  {
+    "name": "AWS Step Functions - (Workflow Engine)",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Workflow orchestration."
+  },
+  {
+    "name": "MCP (Model Context Protocol)",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "<a href=\"https://modelcontextprotocol.io/introduction\">MCP</a> is now a core integration pattern at ARCOS. The MCP Server is a production outcome in Iteration 5, moving from POC to production-hardened multi-tenant deployment with CI/CD, observability, and resilience patterns. MCP servers are in active use for ARCOS workforce data, Lighthouse, Atlassian, Slack, and Microsoft 365 integrations."
+  },
+  {
+    "name": "Java Development Kit v 21",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "JDK 21 with concurrency, pattern matching improvements."
+  },
+  {
+    "name": "Kotlin with Spring",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Kotlin on JVM with Spring framework maturity."
+  },
+  {
+    "name": "MassTransit",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Message-based distributed apps in .NET."
+  },
+  {
+    "name": "Microcontainers (micronaut,quarkus)",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Modern frameworks for efficient cloud-native Java apps."
+  },
+  {
+    "name": "Server Side TypeScript",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "TypeScript on the server for robust backends."
+  },
+  {
+    "name": "Spring AI",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Spring framework for AI engineering."
+  },
+  {
+    "name": "LangChain",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Framework for LLM applications. See EB-337."
+  },
+  {
+    "name": "LangGraph",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Graph-based orchestration for stateful multi-agent LLM apps."
+  },
+  {
+    "name": "Playwright",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "End-to-end testing framework."
+  },
+  {
+    "name": "Spring Modulith",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Framework for well-factored monoliths."
+  },
+  {
+    "name": "Dart",
+    "ring": "Archived",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Google language powering Flutter."
+  },
+  {
+    "name": "AWS Console Recorder",
+    "ring": "Archived",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Chrome extension for recording AWS console actions."
+  },
+  {
+    "name": "Tabnine",
+    "ring": "Archived",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Coding assistant, permissively-licensed model."
+  },
+  {
+    "name": "Cloud Based IDEs",
+    "ring": "Archived",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Remote IDEs (CodeSpaces, Gitpod)."
+  },
+  {
+    "name": "Claude Code Skills",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Prompt-based capabilities for <a href='https://code.claude.com/docs/en/skills'>Claude Code</a> that load structured instructions into context via slash commands. Skills are markdown files with YAML frontmatter that encode repeatable workflows — code review, migrations, testing patterns — as directive instructions Claude follows step-by-step. Custom skills live in .claude/skills/ at project or user scope."
+  },
+  {
+    "name": "Claude Code Plugins",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Distributable extension packages for Claude Code that bundle skills, hooks, MCP servers, and configuration into installable units. The <a href='https://github.com/obra/superpowers'>Superpowers</a> plugin provides structured software development methodologies (TDD, debugging, brainstorming, code review) and is deployed across ARCOS engineering. Plugins are available via the Anthropic marketplace and npm."
+  },
+  {
+    "name": "turbopuffer",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Serverless vector and full-text search database built on object storage. Handles 2.5T+ documents at 10x lower cost than traditional vector databases by leveraging S3-native architecture with NVMe caching. Used by Cursor, Notion, and Linear. Supports hybrid vector + BM25 search, making it a candidate for RAG and semantic search workloads. <a href='https://turbopuffer.com/'>turbopuffer</a>"
+  }
+]
